@@ -1,0 +1,1302 @@
+2019-10-14 15:30:56,407 INFO 44753 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 15:30:56,433 INFO 44753 [egg-multipart] stream mode enable
+2019-10-14 15:30:57,335 INFO 44753 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 15:30:57,337 INFO 44753 [egg-security] use csrf middleware
+2019-10-14 15:30:57,337 INFO 44753 [egg-security] use methodnoallow middleware
+2019-10-14 15:30:57,337 INFO 44753 [egg-security] use noopen middleware
+2019-10-14 15:30:57,338 INFO 44753 [egg-security] use nosniff middleware
+2019-10-14 15:30:57,338 INFO 44753 [egg-security] use xssProtection middleware
+2019-10-14 15:30:57,338 INFO 44753 [egg-security] use xframe middleware
+2019-10-14 15:30:57,339 INFO 44753 [egg-security] use dta middleware
+2019-10-14 15:30:57,339 INFO 44753 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 15:30:57,372 INFO 44753 [egg:core] dump config after load, 4ms
+2019-10-14 15:30:57,384 INFO 44753 [egg-watcher:application] watcher start success
+2019-10-14 15:30:57,394 INFO 44753 [egg:core] dump config after ready, 8ms
+2019-10-14 15:31:46,018 INFO 44856 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 15:31:46,044 INFO 44856 [egg-multipart] stream mode enable
+2019-10-14 15:31:46,088 INFO 44856 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 15:31:46,090 INFO 44856 [egg-security] use csrf middleware
+2019-10-14 15:31:46,090 INFO 44856 [egg-security] use methodnoallow middleware
+2019-10-14 15:31:46,091 INFO 44856 [egg-security] use noopen middleware
+2019-10-14 15:31:46,091 INFO 44856 [egg-security] use nosniff middleware
+2019-10-14 15:31:46,091 INFO 44856 [egg-security] use xssProtection middleware
+2019-10-14 15:31:46,091 INFO 44856 [egg-security] use xframe middleware
+2019-10-14 15:31:46,092 INFO 44856 [egg-security] use dta middleware
+2019-10-14 15:31:46,092 INFO 44856 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 15:31:46,117 INFO 44856 [egg:core] dump config after load, 4ms
+2019-10-14 15:31:46,128 INFO 44856 [egg-watcher:application] watcher start success
+2019-10-14 15:31:46,133 INFO 44856 [egg:core] dump config after ready, 3ms
+2019-10-14 15:33:23,205 INFO 45017 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 15:33:23,231 INFO 45017 [egg-multipart] stream mode enable
+2019-10-14 15:33:23,263 INFO 45017 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 15:33:23,265 INFO 45017 [egg-security] use csrf middleware
+2019-10-14 15:33:23,266 INFO 45017 [egg-security] use methodnoallow middleware
+2019-10-14 15:33:23,266 INFO 45017 [egg-security] use noopen middleware
+2019-10-14 15:33:23,267 INFO 45017 [egg-security] use nosniff middleware
+2019-10-14 15:33:23,267 INFO 45017 [egg-security] use xssProtection middleware
+2019-10-14 15:33:23,267 INFO 45017 [egg-security] use xframe middleware
+2019-10-14 15:33:23,267 INFO 45017 [egg-security] use dta middleware
+2019-10-14 15:33:23,268 INFO 45017 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 15:33:24,149 INFO 45017 [egg:core] dump config after load, 4ms
+2019-10-14 15:33:24,158 INFO 45017 [egg-watcher:application] watcher start success
+2019-10-14 15:33:24,163 INFO 45017 [egg:core] dump config after ready, 3ms
+2019-10-14 15:34:27,335 INFO 45120 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 15:34:27,358 INFO 45120 [egg-multipart] stream mode enable
+2019-10-14 15:34:27,383 INFO 45120 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 15:34:27,385 INFO 45120 [egg-security] use csrf middleware
+2019-10-14 15:34:27,385 INFO 45120 [egg-security] use methodnoallow middleware
+2019-10-14 15:34:27,386 INFO 45120 [egg-security] use noopen middleware
+2019-10-14 15:34:27,386 INFO 45120 [egg-security] use nosniff middleware
+2019-10-14 15:34:27,386 INFO 45120 [egg-security] use xssProtection middleware
+2019-10-14 15:34:27,386 INFO 45120 [egg-security] use xframe middleware
+2019-10-14 15:34:27,386 INFO 45120 [egg-security] use dta middleware
+2019-10-14 15:34:27,386 INFO 45120 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 15:34:28,251 INFO 45120 [egg:core] dump config after load, 4ms
+2019-10-14 15:34:28,260 INFO 45120 [egg-watcher:application] watcher start success
+2019-10-14 15:34:28,265 INFO 45120 [egg:core] dump config after ready, 4ms
+2019-10-14 15:45:30,833 INFO 46113 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 15:45:30,858 INFO 46113 [egg-multipart] stream mode enable
+2019-10-14 15:45:30,887 INFO 46113 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 15:45:30,888 INFO 46113 [egg-security] use csrf middleware
+2019-10-14 15:45:30,889 INFO 46113 [egg-security] use methodnoallow middleware
+2019-10-14 15:45:30,889 INFO 46113 [egg-security] use noopen middleware
+2019-10-14 15:45:30,889 INFO 46113 [egg-security] use nosniff middleware
+2019-10-14 15:45:30,890 INFO 46113 [egg-security] use xssProtection middleware
+2019-10-14 15:45:30,890 INFO 46113 [egg-security] use xframe middleware
+2019-10-14 15:45:30,890 INFO 46113 [egg-security] use dta middleware
+2019-10-14 15:45:30,890 INFO 46113 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 15:45:31,757 INFO 46113 [egg:core] dump config after load, 4ms
+2019-10-14 15:45:31,766 INFO 46113 [egg-watcher:application] watcher start success
+2019-10-14 15:45:31,771 INFO 46113 [egg:core] dump config after ready, 3ms
+2019-10-14 15:48:21,152 INFO 46419 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 15:48:21,186 INFO 46419 [egg-multipart] stream mode enable
+2019-10-14 15:48:21,220 INFO 46419 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 15:48:21,222 INFO 46419 [egg-security] use csrf middleware
+2019-10-14 15:48:21,223 INFO 46419 [egg-security] use methodnoallow middleware
+2019-10-14 15:48:21,223 INFO 46419 [egg-security] use noopen middleware
+2019-10-14 15:48:21,224 INFO 46419 [egg-security] use nosniff middleware
+2019-10-14 15:48:21,224 INFO 46419 [egg-security] use xssProtection middleware
+2019-10-14 15:48:21,224 INFO 46419 [egg-security] use xframe middleware
+2019-10-14 15:48:21,224 INFO 46419 [egg-security] use dta middleware
+2019-10-14 15:48:21,224 INFO 46419 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 15:48:22,157 INFO 46419 [egg:core] dump config after load, 4ms
+2019-10-14 15:48:22,169 INFO 46419 [egg-watcher:application] watcher start success
+2019-10-14 15:48:22,176 INFO 46419 [egg:core] dump config after ready, 4ms
+2019-10-14 15:48:29,854 INFO 46450 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 15:48:29,877 INFO 46450 [egg-multipart] stream mode enable
+2019-10-14 15:48:29,901 INFO 46450 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 15:48:29,903 INFO 46450 [egg-security] use csrf middleware
+2019-10-14 15:48:29,904 INFO 46450 [egg-security] use methodnoallow middleware
+2019-10-14 15:48:29,904 INFO 46450 [egg-security] use noopen middleware
+2019-10-14 15:48:29,904 INFO 46450 [egg-security] use nosniff middleware
+2019-10-14 15:48:29,904 INFO 46450 [egg-security] use xssProtection middleware
+2019-10-14 15:48:29,905 INFO 46450 [egg-security] use xframe middleware
+2019-10-14 15:48:29,905 INFO 46450 [egg-security] use dta middleware
+2019-10-14 15:48:29,905 INFO 46450 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 15:48:29,912 INFO 46450 [egg:core] dump config after load, 4ms
+2019-10-14 15:48:29,920 INFO 46450 [egg-watcher:application] watcher start success
+2019-10-14 15:48:29,925 INFO 46450 [egg:core] dump config after ready, 3ms
+2019-10-14 16:29:18,508 INFO 50203 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:29:18,530 INFO 50203 [egg-multipart] stream mode enable
+2019-10-14 16:29:18,558 INFO 50203 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:29:18,560 INFO 50203 [egg-security] use csrf middleware
+2019-10-14 16:29:18,560 INFO 50203 [egg-security] use methodnoallow middleware
+2019-10-14 16:29:18,560 INFO 50203 [egg-security] use noopen middleware
+2019-10-14 16:29:18,561 INFO 50203 [egg-security] use nosniff middleware
+2019-10-14 16:29:18,561 INFO 50203 [egg-security] use xssProtection middleware
+2019-10-14 16:29:18,561 INFO 50203 [egg-security] use xframe middleware
+2019-10-14 16:29:18,561 INFO 50203 [egg-security] use dta middleware
+2019-10-14 16:29:18,561 INFO 50203 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:29:18,570 INFO 50203 [egg:core] dump config after load, 4ms
+2019-10-14 16:29:18,581 INFO 50203 [egg-watcher:application] watcher start success
+2019-10-14 16:29:18,586 INFO 50203 [egg:core] dump config after ready, 3ms
+2019-10-14 16:33:39,223 INFO 50596 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:33:39,251 INFO 50596 [egg-multipart] stream mode enable
+2019-10-14 16:33:39,281 INFO 50596 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:33:39,284 INFO 50596 [egg-security] use csrf middleware
+2019-10-14 16:33:39,284 INFO 50596 [egg-security] use methodnoallow middleware
+2019-10-14 16:33:39,284 INFO 50596 [egg-security] use noopen middleware
+2019-10-14 16:33:39,285 INFO 50596 [egg-security] use nosniff middleware
+2019-10-14 16:33:39,285 INFO 50596 [egg-security] use xssProtection middleware
+2019-10-14 16:33:39,285 INFO 50596 [egg-security] use xframe middleware
+2019-10-14 16:33:39,285 INFO 50596 [egg-security] use dta middleware
+2019-10-14 16:33:39,285 INFO 50596 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:33:39,293 INFO 50596 [egg:core] dump config after load, 4ms
+2019-10-14 16:33:39,302 INFO 50596 [egg-watcher:application] watcher start success
+2019-10-14 16:33:39,306 INFO 50596 [egg:core] dump config after ready, 3ms
+2019-10-14 16:33:41,572 INFO 50607 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:33:41,599 INFO 50607 [egg-multipart] stream mode enable
+2019-10-14 16:33:41,628 INFO 50607 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:33:41,630 INFO 50607 [egg-security] use csrf middleware
+2019-10-14 16:33:41,630 INFO 50607 [egg-security] use methodnoallow middleware
+2019-10-14 16:33:41,630 INFO 50607 [egg-security] use noopen middleware
+2019-10-14 16:33:41,631 INFO 50607 [egg-security] use nosniff middleware
+2019-10-14 16:33:41,631 INFO 50607 [egg-security] use xssProtection middleware
+2019-10-14 16:33:41,631 INFO 50607 [egg-security] use xframe middleware
+2019-10-14 16:33:41,632 INFO 50607 [egg-security] use dta middleware
+2019-10-14 16:33:41,632 INFO 50607 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:33:42,513 INFO 50607 [egg:core] dump config after load, 3ms
+2019-10-14 16:33:42,523 INFO 50607 [egg-watcher:application] watcher start success
+2019-10-14 16:33:42,527 INFO 50607 [egg:core] dump config after ready, 3ms
+2019-10-14 16:35:05,329 INFO 50741 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:35:05,357 INFO 50741 [egg-multipart] stream mode enable
+2019-10-14 16:35:05,389 INFO 50741 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:35:05,391 INFO 50741 [egg-security] use csrf middleware
+2019-10-14 16:35:05,392 INFO 50741 [egg-security] use methodnoallow middleware
+2019-10-14 16:35:05,392 INFO 50741 [egg-security] use noopen middleware
+2019-10-14 16:35:05,392 INFO 50741 [egg-security] use nosniff middleware
+2019-10-14 16:35:05,393 INFO 50741 [egg-security] use xssProtection middleware
+2019-10-14 16:35:05,393 INFO 50741 [egg-security] use xframe middleware
+2019-10-14 16:35:05,393 INFO 50741 [egg-security] use dta middleware
+2019-10-14 16:35:05,393 INFO 50741 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:35:06,379 INFO 50741 [egg:core] dump config after load, 4ms
+2019-10-14 16:35:06,391 INFO 50741 [egg-watcher:application] watcher start success
+2019-10-14 16:35:06,396 INFO 50741 [egg:core] dump config after ready, 3ms
+2019-10-14 16:35:29,122 INFO 50777 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:35:29,151 INFO 50777 [egg-multipart] stream mode enable
+2019-10-14 16:35:29,184 INFO 50777 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:35:29,186 INFO 50777 [egg-security] use csrf middleware
+2019-10-14 16:35:29,187 INFO 50777 [egg-security] use methodnoallow middleware
+2019-10-14 16:35:29,187 INFO 50777 [egg-security] use noopen middleware
+2019-10-14 16:35:29,188 INFO 50777 [egg-security] use nosniff middleware
+2019-10-14 16:35:29,188 INFO 50777 [egg-security] use xssProtection middleware
+2019-10-14 16:35:29,188 INFO 50777 [egg-security] use xframe middleware
+2019-10-14 16:35:29,188 INFO 50777 [egg-security] use dta middleware
+2019-10-14 16:35:29,189 INFO 50777 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:35:30,245 INFO 50777 [egg:core] dump config after load, 5ms
+2019-10-14 16:35:30,254 INFO 50777 [egg-watcher:application] watcher start success
+2019-10-14 16:35:30,259 INFO 50777 [egg:core] dump config after ready, 3ms
+2019-10-14 16:36:58,743 INFO 50918 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:36:58,767 INFO 50918 [egg-multipart] stream mode enable
+2019-10-14 16:36:58,796 INFO 50918 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:36:58,797 INFO 50918 [egg-security] use csrf middleware
+2019-10-14 16:36:58,798 INFO 50918 [egg-security] use methodnoallow middleware
+2019-10-14 16:36:58,798 INFO 50918 [egg-security] use noopen middleware
+2019-10-14 16:36:58,798 INFO 50918 [egg-security] use nosniff middleware
+2019-10-14 16:36:58,798 INFO 50918 [egg-security] use xssProtection middleware
+2019-10-14 16:36:58,799 INFO 50918 [egg-security] use xframe middleware
+2019-10-14 16:36:58,799 INFO 50918 [egg-security] use dta middleware
+2019-10-14 16:36:58,799 INFO 50918 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:36:59,695 INFO 50918 [egg:core] dump config after load, 3ms
+2019-10-14 16:36:59,704 INFO 50918 [egg-watcher:application] watcher start success
+2019-10-14 16:36:59,709 INFO 50918 [egg:core] dump config after ready, 2ms
+2019-10-14 16:37:15,596 INFO 50954 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:37:15,620 INFO 50954 [egg-multipart] stream mode enable
+2019-10-14 16:37:15,662 INFO 50954 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:37:15,664 INFO 50954 [egg-security] use csrf middleware
+2019-10-14 16:37:15,665 INFO 50954 [egg-security] use methodnoallow middleware
+2019-10-14 16:37:15,665 INFO 50954 [egg-security] use noopen middleware
+2019-10-14 16:37:15,665 INFO 50954 [egg-security] use nosniff middleware
+2019-10-14 16:37:15,666 INFO 50954 [egg-security] use xssProtection middleware
+2019-10-14 16:37:15,666 INFO 50954 [egg-security] use xframe middleware
+2019-10-14 16:37:15,666 INFO 50954 [egg-security] use dta middleware
+2019-10-14 16:37:15,666 INFO 50954 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:37:15,676 INFO 50954 [egg:core] dump config after load, 5ms
+2019-10-14 16:37:15,689 INFO 50954 [egg-watcher:application] watcher start success
+2019-10-14 16:37:15,695 INFO 50954 [egg:core] dump config after ready, 4ms
+2019-10-14 16:39:56,398 INFO 51276 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:39:56,427 INFO 51276 [egg-multipart] stream mode enable
+2019-10-14 16:39:56,461 INFO 51276 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:39:56,463 INFO 51276 [egg-security] use csrf middleware
+2019-10-14 16:39:56,463 INFO 51276 [egg-security] use methodnoallow middleware
+2019-10-14 16:39:56,464 INFO 51276 [egg-security] use noopen middleware
+2019-10-14 16:39:56,464 INFO 51276 [egg-security] use nosniff middleware
+2019-10-14 16:39:56,464 INFO 51276 [egg-security] use xssProtection middleware
+2019-10-14 16:39:56,465 INFO 51276 [egg-security] use xframe middleware
+2019-10-14 16:39:56,465 INFO 51276 [egg-security] use dta middleware
+2019-10-14 16:39:56,465 INFO 51276 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:39:57,371 INFO 51276 [egg:core] dump config after load, 4ms
+2019-10-14 16:39:57,382 INFO 51276 [egg-watcher:application] watcher start success
+2019-10-14 16:39:57,386 INFO 51276 [egg:core] dump config after ready, 3ms
+2019-10-14 16:40:55,483 INFO 51385 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:40:55,508 INFO 51385 [egg-multipart] stream mode enable
+2019-10-14 16:40:55,537 INFO 51385 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:40:55,538 INFO 51385 [egg-security] use csrf middleware
+2019-10-14 16:40:55,539 INFO 51385 [egg-security] use methodnoallow middleware
+2019-10-14 16:40:55,539 INFO 51385 [egg-security] use noopen middleware
+2019-10-14 16:40:55,539 INFO 51385 [egg-security] use nosniff middleware
+2019-10-14 16:40:55,539 INFO 51385 [egg-security] use xssProtection middleware
+2019-10-14 16:40:55,540 INFO 51385 [egg-security] use xframe middleware
+2019-10-14 16:40:55,540 INFO 51385 [egg-security] use dta middleware
+2019-10-14 16:40:55,540 INFO 51385 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:40:56,485 INFO 51385 [egg:core] dump config after load, 4ms
+2019-10-14 16:40:56,496 INFO 51385 [egg-watcher:application] watcher start success
+2019-10-14 16:40:56,501 INFO 51385 [egg:core] dump config after ready, 3ms
+2019-10-14 16:43:21,611 INFO 51616 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:43:21,638 INFO 51616 [egg-multipart] stream mode enable
+2019-10-14 16:43:21,680 INFO 51616 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:43:21,682 INFO 51616 [egg-security] use csrf middleware
+2019-10-14 16:43:21,682 INFO 51616 [egg-security] use methodnoallow middleware
+2019-10-14 16:43:21,682 INFO 51616 [egg-security] use noopen middleware
+2019-10-14 16:43:21,683 INFO 51616 [egg-security] use nosniff middleware
+2019-10-14 16:43:21,683 INFO 51616 [egg-security] use xssProtection middleware
+2019-10-14 16:43:21,683 INFO 51616 [egg-security] use xframe middleware
+2019-10-14 16:43:21,683 INFO 51616 [egg-security] use dta middleware
+2019-10-14 16:43:21,683 INFO 51616 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:43:21,715 INFO 51616 [egg:core] dump config after load, 4ms
+2019-10-14 16:43:21,723 INFO 51616 [egg-watcher:application] watcher start success
+2019-10-14 16:43:21,728 INFO 51616 [egg:core] dump config after ready, 3ms
+2019-10-14 16:44:26,871 INFO 51728 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:44:26,903 INFO 51728 [egg-multipart] stream mode enable
+2019-10-14 16:44:26,955 INFO 51728 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:44:26,957 INFO 51728 [egg-security] use csrf middleware
+2019-10-14 16:44:26,957 INFO 51728 [egg-security] use methodnoallow middleware
+2019-10-14 16:44:26,957 INFO 51728 [egg-security] use noopen middleware
+2019-10-14 16:44:26,958 INFO 51728 [egg-security] use nosniff middleware
+2019-10-14 16:44:26,958 INFO 51728 [egg-security] use xssProtection middleware
+2019-10-14 16:44:26,958 INFO 51728 [egg-security] use xframe middleware
+2019-10-14 16:44:26,959 INFO 51728 [egg-security] use dta middleware
+2019-10-14 16:44:26,959 INFO 51728 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:44:26,994 INFO 51728 [egg:core] dump config after load, 4ms
+2019-10-14 16:44:27,004 INFO 51728 [egg-watcher:application] watcher start success
+2019-10-14 16:44:27,013 INFO 51728 [egg:core] dump config after ready, 7ms
+2019-10-14 16:44:30,544 INFO 51742 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:44:30,569 INFO 51742 [egg-multipart] stream mode enable
+2019-10-14 16:44:30,600 INFO 51742 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:44:30,601 INFO 51742 [egg-security] use csrf middleware
+2019-10-14 16:44:30,602 INFO 51742 [egg-security] use methodnoallow middleware
+2019-10-14 16:44:30,602 INFO 51742 [egg-security] use noopen middleware
+2019-10-14 16:44:30,602 INFO 51742 [egg-security] use nosniff middleware
+2019-10-14 16:44:30,602 INFO 51742 [egg-security] use xssProtection middleware
+2019-10-14 16:44:30,603 INFO 51742 [egg-security] use xframe middleware
+2019-10-14 16:44:30,603 INFO 51742 [egg-security] use dta middleware
+2019-10-14 16:44:30,603 INFO 51742 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:44:30,611 INFO 51742 [egg:core] dump config after load, 5ms
+2019-10-14 16:44:30,621 INFO 51742 [egg-watcher:application] watcher start success
+2019-10-14 16:44:30,626 INFO 51742 [egg:core] dump config after ready, 3ms
+2019-10-14 16:45:12,197 INFO 51911 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:45:12,225 INFO 51911 [egg-multipart] stream mode enable
+2019-10-14 16:45:12,257 INFO 51911 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:45:12,260 INFO 51911 [egg-security] use csrf middleware
+2019-10-14 16:45:12,260 INFO 51911 [egg-security] use methodnoallow middleware
+2019-10-14 16:45:12,261 INFO 51911 [egg-security] use noopen middleware
+2019-10-14 16:45:12,261 INFO 51911 [egg-security] use nosniff middleware
+2019-10-14 16:45:12,261 INFO 51911 [egg-security] use xssProtection middleware
+2019-10-14 16:45:12,261 INFO 51911 [egg-security] use xframe middleware
+2019-10-14 16:45:12,262 INFO 51911 [egg-security] use dta middleware
+2019-10-14 16:45:12,262 INFO 51911 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:45:12,270 INFO 51911 [egg:core] dump config after load, 5ms
+2019-10-14 16:45:12,283 INFO 51911 [egg-watcher:application] watcher start success
+2019-10-14 16:45:12,288 INFO 51911 [egg:core] dump config after ready, 3ms
+2019-10-14 16:49:08,673 INFO 52350 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:49:08,696 INFO 52350 [egg-multipart] stream mode enable
+2019-10-14 16:49:08,724 INFO 52350 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:49:08,725 INFO 52350 [egg-security] use csrf middleware
+2019-10-14 16:49:08,726 INFO 52350 [egg-security] use methodnoallow middleware
+2019-10-14 16:49:08,726 INFO 52350 [egg-security] use noopen middleware
+2019-10-14 16:49:08,727 INFO 52350 [egg-security] use nosniff middleware
+2019-10-14 16:49:08,727 INFO 52350 [egg-security] use xssProtection middleware
+2019-10-14 16:49:08,727 INFO 52350 [egg-security] use xframe middleware
+2019-10-14 16:49:08,727 INFO 52350 [egg-security] use dta middleware
+2019-10-14 16:49:08,727 INFO 52350 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:49:08,735 INFO 52350 [egg:core] dump config after load, 4ms
+2019-10-14 16:49:08,748 INFO 52350 [egg-watcher:application] watcher start success
+2019-10-14 16:49:08,756 INFO 52350 [egg:core] dump config after ready, 6ms
+2019-10-14 16:51:44,193 INFO 52732 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:51:44,218 INFO 52732 [egg-multipart] stream mode enable
+2019-10-14 16:51:44,246 INFO 52732 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:51:44,248 INFO 52732 [egg-security] use csrf middleware
+2019-10-14 16:51:44,248 INFO 52732 [egg-security] use methodnoallow middleware
+2019-10-14 16:51:44,249 INFO 52732 [egg-security] use noopen middleware
+2019-10-14 16:51:44,249 INFO 52732 [egg-security] use nosniff middleware
+2019-10-14 16:51:44,249 INFO 52732 [egg-security] use xssProtection middleware
+2019-10-14 16:51:44,249 INFO 52732 [egg-security] use xframe middleware
+2019-10-14 16:51:44,250 INFO 52732 [egg-security] use dta middleware
+2019-10-14 16:51:44,250 INFO 52732 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:51:45,190 INFO 52732 [egg:core] dump config after load, 4ms
+2019-10-14 16:51:45,205 INFO 52732 [egg-watcher:application] watcher start success
+2019-10-14 16:51:45,210 INFO 52732 [egg:core] dump config after ready, 3ms
+2019-10-14 16:52:05,753 INFO 52780 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:52:05,777 INFO 52780 [egg-multipart] stream mode enable
+2019-10-14 16:52:05,805 INFO 52780 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:52:05,808 INFO 52780 [egg-security] use csrf middleware
+2019-10-14 16:52:05,808 INFO 52780 [egg-security] use methodnoallow middleware
+2019-10-14 16:52:05,809 INFO 52780 [egg-security] use noopen middleware
+2019-10-14 16:52:05,809 INFO 52780 [egg-security] use nosniff middleware
+2019-10-14 16:52:05,809 INFO 52780 [egg-security] use xssProtection middleware
+2019-10-14 16:52:05,809 INFO 52780 [egg-security] use xframe middleware
+2019-10-14 16:52:05,809 INFO 52780 [egg-security] use dta middleware
+2019-10-14 16:52:05,809 INFO 52780 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:52:05,817 INFO 52780 [egg:core] dump config after load, 5ms
+2019-10-14 16:52:05,827 INFO 52780 [egg-watcher:application] watcher start success
+2019-10-14 16:52:05,832 INFO 52780 [egg:core] dump config after ready, 3ms
+2019-10-14 16:53:18,294 INFO 52920 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:53:18,327 INFO 52920 [egg-multipart] stream mode enable
+2019-10-14 16:53:18,360 INFO 52920 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:53:18,362 INFO 52920 [egg-security] use csrf middleware
+2019-10-14 16:53:18,363 INFO 52920 [egg-security] use methodnoallow middleware
+2019-10-14 16:53:18,363 INFO 52920 [egg-security] use noopen middleware
+2019-10-14 16:53:18,364 INFO 52920 [egg-security] use nosniff middleware
+2019-10-14 16:53:18,364 INFO 52920 [egg-security] use xssProtection middleware
+2019-10-14 16:53:18,364 INFO 52920 [egg-security] use xframe middleware
+2019-10-14 16:53:18,365 INFO 52920 [egg-security] use dta middleware
+2019-10-14 16:53:18,365 INFO 52920 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:53:19,165 INFO 52920 [egg:core] dump config after load, 3ms
+2019-10-14 16:53:19,174 INFO 52920 [egg-watcher:application] watcher start success
+2019-10-14 16:53:19,178 INFO 52920 [egg:core] dump config after ready, 2ms
+2019-10-14 16:55:06,280 INFO 53090 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:55:06,302 INFO 53090 [egg-multipart] stream mode enable
+2019-10-14 16:55:06,338 INFO 53090 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:55:06,339 INFO 53090 [egg-security] use csrf middleware
+2019-10-14 16:55:06,340 INFO 53090 [egg-security] use methodnoallow middleware
+2019-10-14 16:55:06,340 INFO 53090 [egg-security] use noopen middleware
+2019-10-14 16:55:06,340 INFO 53090 [egg-security] use nosniff middleware
+2019-10-14 16:55:06,341 INFO 53090 [egg-security] use xssProtection middleware
+2019-10-14 16:55:06,341 INFO 53090 [egg-security] use xframe middleware
+2019-10-14 16:55:06,341 INFO 53090 [egg-security] use dta middleware
+2019-10-14 16:55:06,341 INFO 53090 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:55:06,377 INFO 53090 [egg:core] dump config after load, 5ms
+2019-10-14 16:55:06,387 INFO 53090 [egg-watcher:application] watcher start success
+2019-10-14 16:55:06,392 INFO 53090 [egg:core] dump config after ready, 3ms
+2019-10-14 16:57:08,827 INFO 53276 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:57:08,856 INFO 53276 [egg-multipart] stream mode enable
+2019-10-14 16:57:08,890 INFO 53276 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:57:08,892 INFO 53276 [egg-security] use csrf middleware
+2019-10-14 16:57:08,893 INFO 53276 [egg-security] use methodnoallow middleware
+2019-10-14 16:57:08,894 INFO 53276 [egg-security] use noopen middleware
+2019-10-14 16:57:08,894 INFO 53276 [egg-security] use nosniff middleware
+2019-10-14 16:57:08,894 INFO 53276 [egg-security] use xssProtection middleware
+2019-10-14 16:57:08,895 INFO 53276 [egg-security] use xframe middleware
+2019-10-14 16:57:08,895 INFO 53276 [egg-security] use dta middleware
+2019-10-14 16:57:08,895 INFO 53276 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:57:10,070 INFO 53276 [egg:core] dump config after load, 7ms
+2019-10-14 16:57:10,088 INFO 53276 [egg-watcher:application] watcher start success
+2019-10-14 16:57:10,095 INFO 53276 [egg:core] dump config after ready, 4ms
+2019-10-14 16:57:57,164 INFO 53357 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:57:57,194 INFO 53357 [egg-multipart] stream mode enable
+2019-10-14 16:57:57,235 INFO 53357 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:57:57,237 INFO 53357 [egg-security] use csrf middleware
+2019-10-14 16:57:57,238 INFO 53357 [egg-security] use methodnoallow middleware
+2019-10-14 16:57:57,238 INFO 53357 [egg-security] use noopen middleware
+2019-10-14 16:57:57,238 INFO 53357 [egg-security] use nosniff middleware
+2019-10-14 16:57:57,239 INFO 53357 [egg-security] use xssProtection middleware
+2019-10-14 16:57:57,239 INFO 53357 [egg-security] use xframe middleware
+2019-10-14 16:57:57,239 INFO 53357 [egg-security] use dta middleware
+2019-10-14 16:57:57,239 INFO 53357 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:57:58,132 INFO 53357 [egg:core] dump config after load, 4ms
+2019-10-14 16:57:58,141 INFO 53357 [egg-watcher:application] watcher start success
+2019-10-14 16:57:58,145 INFO 53357 [egg:core] dump config after ready, 3ms
+2019-10-14 16:59:50,924 INFO 53525 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 16:59:50,954 INFO 53525 [egg-multipart] stream mode enable
+2019-10-14 16:59:51,019 INFO 53525 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 16:59:51,022 INFO 53525 [egg-security] use csrf middleware
+2019-10-14 16:59:51,023 INFO 53525 [egg-security] use methodnoallow middleware
+2019-10-14 16:59:51,024 INFO 53525 [egg-security] use noopen middleware
+2019-10-14 16:59:51,024 INFO 53525 [egg-security] use nosniff middleware
+2019-10-14 16:59:51,025 INFO 53525 [egg-security] use xssProtection middleware
+2019-10-14 16:59:51,026 INFO 53525 [egg-security] use xframe middleware
+2019-10-14 16:59:51,026 INFO 53525 [egg-security] use dta middleware
+2019-10-14 16:59:51,026 INFO 53525 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 16:59:52,022 INFO 53525 [egg:core] dump config after load, 4ms
+2019-10-14 16:59:52,032 INFO 53525 [egg-watcher:application] watcher start success
+2019-10-14 16:59:52,038 INFO 53525 [egg:core] dump config after ready, 4ms
+2019-10-14 17:01:08,791 INFO 53644 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:01:08,823 INFO 53644 [egg-multipart] stream mode enable
+2019-10-14 17:01:08,879 INFO 53644 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:01:08,881 INFO 53644 [egg-security] use csrf middleware
+2019-10-14 17:01:08,882 INFO 53644 [egg-security] use methodnoallow middleware
+2019-10-14 17:01:08,883 INFO 53644 [egg-security] use noopen middleware
+2019-10-14 17:01:08,883 INFO 53644 [egg-security] use nosniff middleware
+2019-10-14 17:01:08,884 INFO 53644 [egg-security] use xssProtection middleware
+2019-10-14 17:01:08,885 INFO 53644 [egg-security] use xframe middleware
+2019-10-14 17:01:08,885 INFO 53644 [egg-security] use dta middleware
+2019-10-14 17:01:08,885 INFO 53644 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:01:09,859 INFO 53644 [egg:core] dump config after load, 6ms
+2019-10-14 17:01:09,869 INFO 53644 [egg-watcher:application] watcher start success
+2019-10-14 17:01:09,874 INFO 53644 [egg:core] dump config after ready, 3ms
+2019-10-14 17:01:44,721 INFO 53710 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:01:44,745 INFO 53710 [egg-multipart] stream mode enable
+2019-10-14 17:01:44,770 INFO 53710 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:01:44,771 INFO 53710 [egg-security] use csrf middleware
+2019-10-14 17:01:44,772 INFO 53710 [egg-security] use methodnoallow middleware
+2019-10-14 17:01:44,772 INFO 53710 [egg-security] use noopen middleware
+2019-10-14 17:01:44,772 INFO 53710 [egg-security] use nosniff middleware
+2019-10-14 17:01:44,772 INFO 53710 [egg-security] use xssProtection middleware
+2019-10-14 17:01:44,773 INFO 53710 [egg-security] use xframe middleware
+2019-10-14 17:01:44,773 INFO 53710 [egg-security] use dta middleware
+2019-10-14 17:01:44,773 INFO 53710 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:01:45,690 INFO 53710 [egg:core] dump config after load, 3ms
+2019-10-14 17:01:45,702 INFO 53710 [egg-watcher:application] watcher start success
+2019-10-14 17:01:45,706 INFO 53710 [egg:core] dump config after ready, 3ms
+2019-10-14 17:01:56,747 INFO 53734 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:01:56,777 INFO 53734 [egg-multipart] stream mode enable
+2019-10-14 17:01:56,810 INFO 53734 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:01:56,812 INFO 53734 [egg-security] use csrf middleware
+2019-10-14 17:01:56,813 INFO 53734 [egg-security] use methodnoallow middleware
+2019-10-14 17:01:56,813 INFO 53734 [egg-security] use noopen middleware
+2019-10-14 17:01:56,813 INFO 53734 [egg-security] use nosniff middleware
+2019-10-14 17:01:56,814 INFO 53734 [egg-security] use xssProtection middleware
+2019-10-14 17:01:56,814 INFO 53734 [egg-security] use xframe middleware
+2019-10-14 17:01:56,814 INFO 53734 [egg-security] use dta middleware
+2019-10-14 17:01:56,814 INFO 53734 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:01:56,824 INFO 53734 [egg:core] dump config after load, 4ms
+2019-10-14 17:01:56,833 INFO 53734 [egg-watcher:application] watcher start success
+2019-10-14 17:01:56,838 INFO 53734 [egg:core] dump config after ready, 3ms
+2019-10-14 17:02:15,290 INFO 53766 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:02:15,319 INFO 53766 [egg-multipart] stream mode enable
+2019-10-14 17:02:15,350 INFO 53766 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:02:15,352 INFO 53766 [egg-security] use csrf middleware
+2019-10-14 17:02:15,353 INFO 53766 [egg-security] use methodnoallow middleware
+2019-10-14 17:02:15,353 INFO 53766 [egg-security] use noopen middleware
+2019-10-14 17:02:15,353 INFO 53766 [egg-security] use nosniff middleware
+2019-10-14 17:02:15,354 INFO 53766 [egg-security] use xssProtection middleware
+2019-10-14 17:02:15,354 INFO 53766 [egg-security] use xframe middleware
+2019-10-14 17:02:15,354 INFO 53766 [egg-security] use dta middleware
+2019-10-14 17:02:15,354 INFO 53766 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:02:15,363 INFO 53766 [egg:core] dump config after load, 4ms
+2019-10-14 17:02:15,373 INFO 53766 [egg-watcher:application] watcher start success
+2019-10-14 17:02:15,381 INFO 53766 [egg:core] dump config after ready, 6ms
+2019-10-14 17:03:34,022 INFO 53909 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:03:34,054 INFO 53909 [egg-multipart] stream mode enable
+2019-10-14 17:03:34,113 INFO 53909 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:03:34,116 INFO 53909 [egg-security] use csrf middleware
+2019-10-14 17:03:34,117 INFO 53909 [egg-security] use methodnoallow middleware
+2019-10-14 17:03:34,117 INFO 53909 [egg-security] use noopen middleware
+2019-10-14 17:03:34,118 INFO 53909 [egg-security] use nosniff middleware
+2019-10-14 17:03:34,118 INFO 53909 [egg-security] use xssProtection middleware
+2019-10-14 17:03:34,119 INFO 53909 [egg-security] use xframe middleware
+2019-10-14 17:03:34,119 INFO 53909 [egg-security] use dta middleware
+2019-10-14 17:03:34,119 INFO 53909 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:03:34,131 INFO 53909 [egg:core] dump config after load, 5ms
+2019-10-14 17:03:34,141 INFO 53909 [egg-watcher:application] watcher start success
+2019-10-14 17:03:34,148 INFO 53909 [egg:core] dump config after ready, 5ms
+2019-10-14 17:03:54,880 INFO 53946 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:03:54,917 INFO 53946 [egg-multipart] stream mode enable
+2019-10-14 17:03:54,996 INFO 53946 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:03:54,998 INFO 53946 [egg-security] use csrf middleware
+2019-10-14 17:03:54,999 INFO 53946 [egg-security] use methodnoallow middleware
+2019-10-14 17:03:55,000 INFO 53946 [egg-security] use noopen middleware
+2019-10-14 17:03:55,000 INFO 53946 [egg-security] use nosniff middleware
+2019-10-14 17:03:55,001 INFO 53946 [egg-security] use xssProtection middleware
+2019-10-14 17:03:55,002 INFO 53946 [egg-security] use xframe middleware
+2019-10-14 17:03:55,002 INFO 53946 [egg-security] use dta middleware
+2019-10-14 17:03:55,002 INFO 53946 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:03:55,903 INFO 53946 [egg:core] dump config after load, 4ms
+2019-10-14 17:03:55,912 INFO 53946 [egg-watcher:application] watcher start success
+2019-10-14 17:03:55,916 INFO 53946 [egg:core] dump config after ready, 2ms
+2019-10-14 17:04:31,869 INFO 54016 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:04:31,892 INFO 54016 [egg-multipart] stream mode enable
+2019-10-14 17:04:31,919 INFO 54016 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:04:31,920 INFO 54016 [egg-security] use csrf middleware
+2019-10-14 17:04:31,921 INFO 54016 [egg-security] use methodnoallow middleware
+2019-10-14 17:04:31,921 INFO 54016 [egg-security] use noopen middleware
+2019-10-14 17:04:31,921 INFO 54016 [egg-security] use nosniff middleware
+2019-10-14 17:04:31,922 INFO 54016 [egg-security] use xssProtection middleware
+2019-10-14 17:04:31,922 INFO 54016 [egg-security] use xframe middleware
+2019-10-14 17:04:31,922 INFO 54016 [egg-security] use dta middleware
+2019-10-14 17:04:31,922 INFO 54016 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:04:32,906 INFO 54016 [egg:core] dump config after load, 4ms
+2019-10-14 17:04:32,915 INFO 54016 [egg-watcher:application] watcher start success
+2019-10-14 17:04:32,919 INFO 54016 [egg:core] dump config after ready, 3ms
+2019-10-14 17:04:46,036 INFO 54119 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:04:46,066 INFO 54119 [egg-multipart] stream mode enable
+2019-10-14 17:04:46,100 INFO 54119 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:04:46,102 INFO 54119 [egg-security] use csrf middleware
+2019-10-14 17:04:46,102 INFO 54119 [egg-security] use methodnoallow middleware
+2019-10-14 17:04:46,103 INFO 54119 [egg-security] use noopen middleware
+2019-10-14 17:04:46,103 INFO 54119 [egg-security] use nosniff middleware
+2019-10-14 17:04:46,103 INFO 54119 [egg-security] use xssProtection middleware
+2019-10-14 17:04:46,104 INFO 54119 [egg-security] use xframe middleware
+2019-10-14 17:04:46,104 INFO 54119 [egg-security] use dta middleware
+2019-10-14 17:04:46,104 INFO 54119 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:04:46,114 INFO 54119 [egg:core] dump config after load, 5ms
+2019-10-14 17:04:46,128 INFO 54119 [egg-watcher:application] watcher start success
+2019-10-14 17:04:46,133 INFO 54119 [egg:core] dump config after ready, 3ms
+2019-10-14 17:05:44,052 INFO 54224 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:05:44,079 INFO 54224 [egg-multipart] stream mode enable
+2019-10-14 17:05:44,106 INFO 54224 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:05:44,108 INFO 54224 [egg-security] use csrf middleware
+2019-10-14 17:05:44,108 INFO 54224 [egg-security] use methodnoallow middleware
+2019-10-14 17:05:44,108 INFO 54224 [egg-security] use noopen middleware
+2019-10-14 17:05:44,109 INFO 54224 [egg-security] use nosniff middleware
+2019-10-14 17:05:44,109 INFO 54224 [egg-security] use xssProtection middleware
+2019-10-14 17:05:44,109 INFO 54224 [egg-security] use xframe middleware
+2019-10-14 17:05:44,110 INFO 54224 [egg-security] use dta middleware
+2019-10-14 17:05:44,110 INFO 54224 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:05:44,940 INFO 54224 [egg:core] dump config after load, 4ms
+2019-10-14 17:05:44,951 INFO 54224 [egg-watcher:application] watcher start success
+2019-10-14 17:05:44,956 INFO 54224 [egg:core] dump config after ready, 3ms
+2019-10-14 17:06:03,263 INFO 54263 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:06:03,286 INFO 54263 [egg-multipart] stream mode enable
+2019-10-14 17:06:03,313 INFO 54263 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:06:03,314 INFO 54263 [egg-security] use csrf middleware
+2019-10-14 17:06:03,315 INFO 54263 [egg-security] use methodnoallow middleware
+2019-10-14 17:06:03,315 INFO 54263 [egg-security] use noopen middleware
+2019-10-14 17:06:03,315 INFO 54263 [egg-security] use nosniff middleware
+2019-10-14 17:06:03,315 INFO 54263 [egg-security] use xssProtection middleware
+2019-10-14 17:06:03,316 INFO 54263 [egg-security] use xframe middleware
+2019-10-14 17:06:03,316 INFO 54263 [egg-security] use dta middleware
+2019-10-14 17:06:03,316 INFO 54263 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:06:04,211 INFO 54263 [egg:core] dump config after load, 4ms
+2019-10-14 17:06:04,220 INFO 54263 [egg-watcher:application] watcher start success
+2019-10-14 17:06:04,224 INFO 54263 [egg:core] dump config after ready, 3ms
+2019-10-14 17:07:11,358 INFO 54377 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:07:11,386 INFO 54377 [egg-multipart] stream mode enable
+2019-10-14 17:07:11,417 INFO 54377 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:07:11,419 INFO 54377 [egg-security] use csrf middleware
+2019-10-14 17:07:11,419 INFO 54377 [egg-security] use methodnoallow middleware
+2019-10-14 17:07:11,419 INFO 54377 [egg-security] use noopen middleware
+2019-10-14 17:07:11,420 INFO 54377 [egg-security] use nosniff middleware
+2019-10-14 17:07:11,420 INFO 54377 [egg-security] use xssProtection middleware
+2019-10-14 17:07:11,420 INFO 54377 [egg-security] use xframe middleware
+2019-10-14 17:07:11,421 INFO 54377 [egg-security] use dta middleware
+2019-10-14 17:07:11,421 INFO 54377 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:07:12,393 INFO 54377 [egg:core] dump config after load, 5ms
+2019-10-14 17:07:12,404 INFO 54377 [egg-watcher:application] watcher start success
+2019-10-14 17:07:12,409 INFO 54377 [egg:core] dump config after ready, 3ms
+2019-10-14 17:07:24,411 INFO 54412 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:07:24,435 INFO 54412 [egg-multipart] stream mode enable
+2019-10-14 17:07:24,464 INFO 54412 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:07:24,466 INFO 54412 [egg-security] use csrf middleware
+2019-10-14 17:07:24,466 INFO 54412 [egg-security] use methodnoallow middleware
+2019-10-14 17:07:24,467 INFO 54412 [egg-security] use noopen middleware
+2019-10-14 17:07:24,467 INFO 54412 [egg-security] use nosniff middleware
+2019-10-14 17:07:24,467 INFO 54412 [egg-security] use xssProtection middleware
+2019-10-14 17:07:24,467 INFO 54412 [egg-security] use xframe middleware
+2019-10-14 17:07:24,468 INFO 54412 [egg-security] use dta middleware
+2019-10-14 17:07:24,468 INFO 54412 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:07:25,444 INFO 54412 [egg:core] dump config after load, 5ms
+2019-10-14 17:07:25,455 INFO 54412 [egg-watcher:application] watcher start success
+2019-10-14 17:07:25,460 INFO 54412 [egg:core] dump config after ready, 3ms
+2019-10-14 17:07:38,947 INFO 54445 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:07:38,971 INFO 54445 [egg-multipart] stream mode enable
+2019-10-14 17:07:39,000 INFO 54445 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:07:39,002 INFO 54445 [egg-security] use csrf middleware
+2019-10-14 17:07:39,002 INFO 54445 [egg-security] use methodnoallow middleware
+2019-10-14 17:07:39,002 INFO 54445 [egg-security] use noopen middleware
+2019-10-14 17:07:39,003 INFO 54445 [egg-security] use nosniff middleware
+2019-10-14 17:07:39,003 INFO 54445 [egg-security] use xssProtection middleware
+2019-10-14 17:07:39,003 INFO 54445 [egg-security] use xframe middleware
+2019-10-14 17:07:39,003 INFO 54445 [egg-security] use dta middleware
+2019-10-14 17:07:39,003 INFO 54445 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:07:39,920 INFO 54445 [egg:core] dump config after load, 3ms
+2019-10-14 17:07:39,930 INFO 54445 [egg-watcher:application] watcher start success
+2019-10-14 17:07:39,938 INFO 54445 [egg:core] dump config after ready, 5ms
+2019-10-14 17:07:44,426 INFO 54461 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:07:44,450 INFO 54461 [egg-multipart] stream mode enable
+2019-10-14 17:07:44,476 INFO 54461 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:07:44,477 INFO 54461 [egg-security] use csrf middleware
+2019-10-14 17:07:44,478 INFO 54461 [egg-security] use methodnoallow middleware
+2019-10-14 17:07:44,478 INFO 54461 [egg-security] use noopen middleware
+2019-10-14 17:07:44,479 INFO 54461 [egg-security] use nosniff middleware
+2019-10-14 17:07:44,480 INFO 54461 [egg-security] use xssProtection middleware
+2019-10-14 17:07:44,480 INFO 54461 [egg-security] use xframe middleware
+2019-10-14 17:07:44,480 INFO 54461 [egg-security] use dta middleware
+2019-10-14 17:07:44,480 INFO 54461 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:07:45,333 INFO 54461 [egg:core] dump config after load, 3ms
+2019-10-14 17:07:45,343 INFO 54461 [egg-watcher:application] watcher start success
+2019-10-14 17:07:45,347 INFO 54461 [egg:core] dump config after ready, 2ms
+2019-10-14 17:08:30,894 INFO 54535 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:08:30,920 INFO 54535 [egg-multipart] stream mode enable
+2019-10-14 17:08:30,947 INFO 54535 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:08:30,949 INFO 54535 [egg-security] use csrf middleware
+2019-10-14 17:08:30,949 INFO 54535 [egg-security] use methodnoallow middleware
+2019-10-14 17:08:30,950 INFO 54535 [egg-security] use noopen middleware
+2019-10-14 17:08:30,950 INFO 54535 [egg-security] use nosniff middleware
+2019-10-14 17:08:30,950 INFO 54535 [egg-security] use xssProtection middleware
+2019-10-14 17:08:30,950 INFO 54535 [egg-security] use xframe middleware
+2019-10-14 17:08:30,951 INFO 54535 [egg-security] use dta middleware
+2019-10-14 17:08:30,951 INFO 54535 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:08:31,871 INFO 54535 [egg:core] dump config after load, 3ms
+2019-10-14 17:08:31,880 INFO 54535 [egg-watcher:application] watcher start success
+2019-10-14 17:08:31,885 INFO 54535 [egg:core] dump config after ready, 3ms
+2019-10-14 17:09:12,432 INFO 54604 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:09:12,460 INFO 54604 [egg-multipart] stream mode enable
+2019-10-14 17:09:12,494 INFO 54604 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:09:12,497 INFO 54604 [egg-security] use csrf middleware
+2019-10-14 17:09:12,497 INFO 54604 [egg-security] use methodnoallow middleware
+2019-10-14 17:09:12,498 INFO 54604 [egg-security] use noopen middleware
+2019-10-14 17:09:12,498 INFO 54604 [egg-security] use nosniff middleware
+2019-10-14 17:09:12,498 INFO 54604 [egg-security] use xssProtection middleware
+2019-10-14 17:09:12,499 INFO 54604 [egg-security] use xframe middleware
+2019-10-14 17:09:12,499 INFO 54604 [egg-security] use dta middleware
+2019-10-14 17:09:12,499 INFO 54604 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:09:13,502 INFO 54604 [egg:core] dump config after load, 3ms
+2019-10-14 17:09:13,511 INFO 54604 [egg-watcher:application] watcher start success
+2019-10-14 17:09:13,514 INFO 54604 [egg:core] dump config after ready, 2ms
+2019-10-14 17:10:23,391 INFO 54712 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:10:23,422 INFO 54712 [egg-multipart] stream mode enable
+2019-10-14 17:10:23,456 INFO 54712 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:10:23,458 INFO 54712 [egg-security] use csrf middleware
+2019-10-14 17:10:23,458 INFO 54712 [egg-security] use methodnoallow middleware
+2019-10-14 17:10:23,459 INFO 54712 [egg-security] use noopen middleware
+2019-10-14 17:10:23,459 INFO 54712 [egg-security] use nosniff middleware
+2019-10-14 17:10:23,459 INFO 54712 [egg-security] use xssProtection middleware
+2019-10-14 17:10:23,460 INFO 54712 [egg-security] use xframe middleware
+2019-10-14 17:10:23,460 INFO 54712 [egg-security] use dta middleware
+2019-10-14 17:10:23,460 INFO 54712 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:10:24,380 INFO 54712 [egg:core] dump config after load, 4ms
+2019-10-14 17:10:24,388 INFO 54712 [egg-watcher:application] watcher start success
+2019-10-14 17:10:24,391 INFO 54712 [egg:core] dump config after ready, 2ms
+2019-10-14 17:11:01,687 INFO 54778 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:11:01,708 INFO 54778 [egg-multipart] stream mode enable
+2019-10-14 17:11:01,733 INFO 54778 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:11:01,734 INFO 54778 [egg-security] use csrf middleware
+2019-10-14 17:11:01,735 INFO 54778 [egg-security] use methodnoallow middleware
+2019-10-14 17:11:01,735 INFO 54778 [egg-security] use noopen middleware
+2019-10-14 17:11:01,735 INFO 54778 [egg-security] use nosniff middleware
+2019-10-14 17:11:01,736 INFO 54778 [egg-security] use xssProtection middleware
+2019-10-14 17:11:01,736 INFO 54778 [egg-security] use xframe middleware
+2019-10-14 17:11:01,736 INFO 54778 [egg-security] use dta middleware
+2019-10-14 17:11:01,736 INFO 54778 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:11:02,699 INFO 54778 [egg:core] dump config after load, 4ms
+2019-10-14 17:11:02,711 INFO 54778 [egg-watcher:application] watcher start success
+2019-10-14 17:11:02,716 INFO 54778 [egg:core] dump config after ready, 3ms
+2019-10-14 17:11:29,889 INFO 54831 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:11:29,908 INFO 54831 [egg-multipart] stream mode enable
+2019-10-14 17:11:29,933 INFO 54831 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:11:29,935 INFO 54831 [egg-security] use csrf middleware
+2019-10-14 17:11:29,935 INFO 54831 [egg-security] use methodnoallow middleware
+2019-10-14 17:11:29,935 INFO 54831 [egg-security] use noopen middleware
+2019-10-14 17:11:29,936 INFO 54831 [egg-security] use nosniff middleware
+2019-10-14 17:11:29,936 INFO 54831 [egg-security] use xssProtection middleware
+2019-10-14 17:11:29,936 INFO 54831 [egg-security] use xframe middleware
+2019-10-14 17:11:29,936 INFO 54831 [egg-security] use dta middleware
+2019-10-14 17:11:29,936 INFO 54831 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:11:30,801 INFO 54831 [egg:core] dump config after load, 3ms
+2019-10-14 17:11:30,809 INFO 54831 [egg-watcher:application] watcher start success
+2019-10-14 17:11:30,813 INFO 54831 [egg:core] dump config after ready, 2ms
+2019-10-14 17:14:17,521 INFO 55066 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:14:17,541 INFO 55066 [egg-multipart] stream mode enable
+2019-10-14 17:14:17,565 INFO 55066 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:14:17,567 INFO 55066 [egg-security] use csrf middleware
+2019-10-14 17:14:17,567 INFO 55066 [egg-security] use methodnoallow middleware
+2019-10-14 17:14:17,568 INFO 55066 [egg-security] use noopen middleware
+2019-10-14 17:14:17,568 INFO 55066 [egg-security] use nosniff middleware
+2019-10-14 17:14:17,568 INFO 55066 [egg-security] use xssProtection middleware
+2019-10-14 17:14:17,568 INFO 55066 [egg-security] use xframe middleware
+2019-10-14 17:14:17,568 INFO 55066 [egg-security] use dta middleware
+2019-10-14 17:14:17,568 INFO 55066 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:14:18,488 INFO 55066 [egg:core] dump config after load, 5ms
+2019-10-14 17:14:18,501 INFO 55066 [egg-watcher:application] watcher start success
+2019-10-14 17:14:18,506 INFO 55066 [egg:core] dump config after ready, 3ms
+2019-10-14 17:14:26,510 INFO 55093 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:14:26,540 INFO 55093 [egg-multipart] stream mode enable
+2019-10-14 17:14:26,574 INFO 55093 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:14:26,576 INFO 55093 [egg-security] use csrf middleware
+2019-10-14 17:14:26,577 INFO 55093 [egg-security] use methodnoallow middleware
+2019-10-14 17:14:26,577 INFO 55093 [egg-security] use noopen middleware
+2019-10-14 17:14:26,578 INFO 55093 [egg-security] use nosniff middleware
+2019-10-14 17:14:26,578 INFO 55093 [egg-security] use xssProtection middleware
+2019-10-14 17:14:26,578 INFO 55093 [egg-security] use xframe middleware
+2019-10-14 17:14:26,579 INFO 55093 [egg-security] use dta middleware
+2019-10-14 17:14:26,579 INFO 55093 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:14:27,491 INFO 55093 [egg:core] dump config after load, 5ms
+2019-10-14 17:14:27,502 INFO 55093 [egg-watcher:application] watcher start success
+2019-10-14 17:14:27,507 INFO 55093 [egg:core] dump config after ready, 3ms
+2019-10-14 17:14:38,994 INFO 55123 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:14:39,018 INFO 55123 [egg-multipart] stream mode enable
+2019-10-14 17:14:39,041 INFO 55123 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:14:39,043 INFO 55123 [egg-security] use csrf middleware
+2019-10-14 17:14:39,043 INFO 55123 [egg-security] use methodnoallow middleware
+2019-10-14 17:14:39,043 INFO 55123 [egg-security] use noopen middleware
+2019-10-14 17:14:39,044 INFO 55123 [egg-security] use nosniff middleware
+2019-10-14 17:14:39,044 INFO 55123 [egg-security] use xssProtection middleware
+2019-10-14 17:14:39,044 INFO 55123 [egg-security] use xframe middleware
+2019-10-14 17:14:39,044 INFO 55123 [egg-security] use dta middleware
+2019-10-14 17:14:39,044 INFO 55123 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:14:39,897 INFO 55123 [egg:core] dump config after load, 5ms
+2019-10-14 17:14:39,908 INFO 55123 [egg-watcher:application] watcher start success
+2019-10-14 17:14:39,914 INFO 55123 [egg:core] dump config after ready, 4ms
+2019-10-14 17:16:27,039 INFO 55296 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:16:27,070 INFO 55296 [egg-multipart] stream mode enable
+2019-10-14 17:16:27,117 INFO 55296 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:16:27,119 INFO 55296 [egg-security] use csrf middleware
+2019-10-14 17:16:27,120 INFO 55296 [egg-security] use methodnoallow middleware
+2019-10-14 17:16:27,120 INFO 55296 [egg-security] use noopen middleware
+2019-10-14 17:16:27,121 INFO 55296 [egg-security] use nosniff middleware
+2019-10-14 17:16:27,121 INFO 55296 [egg-security] use xssProtection middleware
+2019-10-14 17:16:27,121 INFO 55296 [egg-security] use xframe middleware
+2019-10-14 17:16:27,122 INFO 55296 [egg-security] use dta middleware
+2019-10-14 17:16:27,122 INFO 55296 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:16:27,913 INFO 55296 [egg:core] dump config after load, 4ms
+2019-10-14 17:16:27,921 INFO 55296 [egg-watcher:application] watcher start success
+2019-10-14 17:16:27,926 INFO 55296 [egg:core] dump config after ready, 3ms
+2019-10-14 17:18:06,834 INFO 55445 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:18:06,858 INFO 55445 [egg-multipart] stream mode enable
+2019-10-14 17:18:06,889 INFO 55445 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:18:06,891 INFO 55445 [egg-security] use csrf middleware
+2019-10-14 17:18:06,892 INFO 55445 [egg-security] use methodnoallow middleware
+2019-10-14 17:18:06,892 INFO 55445 [egg-security] use noopen middleware
+2019-10-14 17:18:06,892 INFO 55445 [egg-security] use nosniff middleware
+2019-10-14 17:18:06,893 INFO 55445 [egg-security] use xssProtection middleware
+2019-10-14 17:18:06,893 INFO 55445 [egg-security] use xframe middleware
+2019-10-14 17:18:06,893 INFO 55445 [egg-security] use dta middleware
+2019-10-14 17:18:06,893 INFO 55445 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:18:07,951 INFO 55445 [egg:core] dump config after load, 5ms
+2019-10-14 17:18:07,960 INFO 55445 [egg-watcher:application] watcher start success
+2019-10-14 17:18:07,966 INFO 55445 [egg:core] dump config after ready, 4ms
+2019-10-14 17:18:57,658 INFO 55532 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:18:57,688 INFO 55532 [egg-multipart] stream mode enable
+2019-10-14 17:18:57,717 INFO 55532 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:18:57,718 INFO 55532 [egg-security] use csrf middleware
+2019-10-14 17:18:57,719 INFO 55532 [egg-security] use methodnoallow middleware
+2019-10-14 17:18:57,719 INFO 55532 [egg-security] use noopen middleware
+2019-10-14 17:18:57,720 INFO 55532 [egg-security] use nosniff middleware
+2019-10-14 17:18:57,721 INFO 55532 [egg-security] use xssProtection middleware
+2019-10-14 17:18:57,721 INFO 55532 [egg-security] use xframe middleware
+2019-10-14 17:18:57,721 INFO 55532 [egg-security] use dta middleware
+2019-10-14 17:18:57,721 INFO 55532 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:18:58,579 INFO 55532 [egg:core] dump config after load, 3ms
+2019-10-14 17:18:58,589 INFO 55532 [egg-watcher:application] watcher start success
+2019-10-14 17:18:58,595 INFO 55532 [egg:core] dump config after ready, 4ms
+2019-10-14 17:20:01,180 INFO 55631 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:20:01,213 INFO 55631 [egg-multipart] stream mode enable
+2019-10-14 17:20:01,251 INFO 55631 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:20:01,253 INFO 55631 [egg-security] use csrf middleware
+2019-10-14 17:20:01,253 INFO 55631 [egg-security] use methodnoallow middleware
+2019-10-14 17:20:01,254 INFO 55631 [egg-security] use noopen middleware
+2019-10-14 17:20:01,254 INFO 55631 [egg-security] use nosniff middleware
+2019-10-14 17:20:01,255 INFO 55631 [egg-security] use xssProtection middleware
+2019-10-14 17:20:01,255 INFO 55631 [egg-security] use xframe middleware
+2019-10-14 17:20:01,255 INFO 55631 [egg-security] use dta middleware
+2019-10-14 17:20:01,255 INFO 55631 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:20:02,163 INFO 55631 [egg:core] dump config after load, 4ms
+2019-10-14 17:20:02,172 INFO 55631 [egg-watcher:application] watcher start success
+2019-10-14 17:20:02,176 INFO 55631 [egg:core] dump config after ready, 2ms
+2019-10-14 17:20:10,991 INFO 55663 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:20:11,024 INFO 55663 [egg-multipart] stream mode enable
+2019-10-14 17:20:11,064 INFO 55663 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:20:11,066 INFO 55663 [egg-security] use csrf middleware
+2019-10-14 17:20:11,067 INFO 55663 [egg-security] use methodnoallow middleware
+2019-10-14 17:20:11,067 INFO 55663 [egg-security] use noopen middleware
+2019-10-14 17:20:11,068 INFO 55663 [egg-security] use nosniff middleware
+2019-10-14 17:20:11,068 INFO 55663 [egg-security] use xssProtection middleware
+2019-10-14 17:20:11,068 INFO 55663 [egg-security] use xframe middleware
+2019-10-14 17:20:11,068 INFO 55663 [egg-security] use dta middleware
+2019-10-14 17:20:11,068 INFO 55663 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:20:11,938 INFO 55663 [egg:core] dump config after load, 4ms
+2019-10-14 17:20:11,948 INFO 55663 [egg-watcher:application] watcher start success
+2019-10-14 17:20:11,952 INFO 55663 [egg:core] dump config after ready, 2ms
+2019-10-14 17:20:44,301 INFO 55732 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:20:44,330 INFO 55732 [egg-multipart] stream mode enable
+2019-10-14 17:20:44,359 INFO 55732 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:20:44,361 INFO 55732 [egg-security] use csrf middleware
+2019-10-14 17:20:44,361 INFO 55732 [egg-security] use methodnoallow middleware
+2019-10-14 17:20:44,362 INFO 55732 [egg-security] use noopen middleware
+2019-10-14 17:20:44,362 INFO 55732 [egg-security] use nosniff middleware
+2019-10-14 17:20:44,362 INFO 55732 [egg-security] use xssProtection middleware
+2019-10-14 17:20:44,362 INFO 55732 [egg-security] use xframe middleware
+2019-10-14 17:20:44,363 INFO 55732 [egg-security] use dta middleware
+2019-10-14 17:20:44,363 INFO 55732 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:20:45,300 INFO 55732 [egg:core] dump config after load, 4ms
+2019-10-14 17:20:45,311 INFO 55732 [egg-watcher:application] watcher start success
+2019-10-14 17:20:45,316 INFO 55732 [egg:core] dump config after ready, 3ms
+2019-10-14 17:21:23,259 INFO 55806 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:21:23,281 INFO 55806 [egg-multipart] stream mode enable
+2019-10-14 17:21:23,308 INFO 55806 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:21:23,310 INFO 55806 [egg-security] use csrf middleware
+2019-10-14 17:21:23,310 INFO 55806 [egg-security] use methodnoallow middleware
+2019-10-14 17:21:23,311 INFO 55806 [egg-security] use noopen middleware
+2019-10-14 17:21:23,311 INFO 55806 [egg-security] use nosniff middleware
+2019-10-14 17:21:23,311 INFO 55806 [egg-security] use xssProtection middleware
+2019-10-14 17:21:23,311 INFO 55806 [egg-security] use xframe middleware
+2019-10-14 17:21:23,312 INFO 55806 [egg-security] use dta middleware
+2019-10-14 17:21:23,312 INFO 55806 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:21:24,218 INFO 55806 [egg:core] dump config after load, 4ms
+2019-10-14 17:21:24,226 INFO 55806 [egg-watcher:application] watcher start success
+2019-10-14 17:21:24,230 INFO 55806 [egg:core] dump config after ready, 2ms
+2019-10-14 17:21:49,631 INFO 55865 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:21:49,652 INFO 55865 [egg-multipart] stream mode enable
+2019-10-14 17:21:49,676 INFO 55865 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:21:49,677 INFO 55865 [egg-security] use csrf middleware
+2019-10-14 17:21:49,678 INFO 55865 [egg-security] use methodnoallow middleware
+2019-10-14 17:21:49,678 INFO 55865 [egg-security] use noopen middleware
+2019-10-14 17:21:49,678 INFO 55865 [egg-security] use nosniff middleware
+2019-10-14 17:21:49,678 INFO 55865 [egg-security] use xssProtection middleware
+2019-10-14 17:21:49,679 INFO 55865 [egg-security] use xframe middleware
+2019-10-14 17:21:49,679 INFO 55865 [egg-security] use dta middleware
+2019-10-14 17:21:49,679 INFO 55865 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:21:50,589 INFO 55865 [egg:core] dump config after load, 3ms
+2019-10-14 17:21:50,598 INFO 55865 [egg-watcher:application] watcher start success
+2019-10-14 17:21:50,602 INFO 55865 [egg:core] dump config after ready, 2ms
+2019-10-14 17:22:25,109 INFO 55925 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:22:25,130 INFO 55925 [egg-multipart] stream mode enable
+2019-10-14 17:22:25,162 INFO 55925 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:22:25,165 INFO 55925 [egg-security] use csrf middleware
+2019-10-14 17:22:25,165 INFO 55925 [egg-security] use methodnoallow middleware
+2019-10-14 17:22:25,165 INFO 55925 [egg-security] use noopen middleware
+2019-10-14 17:22:25,166 INFO 55925 [egg-security] use nosniff middleware
+2019-10-14 17:22:25,166 INFO 55925 [egg-security] use xssProtection middleware
+2019-10-14 17:22:25,166 INFO 55925 [egg-security] use xframe middleware
+2019-10-14 17:22:25,166 INFO 55925 [egg-security] use dta middleware
+2019-10-14 17:22:25,166 INFO 55925 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:22:25,174 INFO 55925 [egg:core] dump config after load, 4ms
+2019-10-14 17:22:25,190 INFO 55925 [egg-watcher:application] watcher start success
+2019-10-14 17:22:25,195 INFO 55925 [egg:core] dump config after ready, 3ms
+2019-10-14 17:25:47,560 INFO 56452 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:25:47,588 INFO 56452 [egg-multipart] stream mode enable
+2019-10-14 17:25:47,621 INFO 56452 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:25:47,623 INFO 56452 [egg-security] use csrf middleware
+2019-10-14 17:25:47,623 INFO 56452 [egg-security] use methodnoallow middleware
+2019-10-14 17:25:47,623 INFO 56452 [egg-security] use noopen middleware
+2019-10-14 17:25:47,624 INFO 56452 [egg-security] use nosniff middleware
+2019-10-14 17:25:47,624 INFO 56452 [egg-security] use xssProtection middleware
+2019-10-14 17:25:47,624 INFO 56452 [egg-security] use xframe middleware
+2019-10-14 17:25:47,625 INFO 56452 [egg-security] use dta middleware
+2019-10-14 17:25:47,625 INFO 56452 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:25:48,561 INFO 56452 [egg:core] dump config after load, 4ms
+2019-10-14 17:25:48,575 INFO 56452 [egg-watcher:application] watcher start success
+2019-10-14 17:25:48,580 INFO 56452 [egg:core] dump config after ready, 3ms
+2019-10-14 17:26:19,438 INFO 56517 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:26:19,471 INFO 56517 [egg-multipart] stream mode enable
+2019-10-14 17:26:19,519 INFO 56517 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:26:19,521 INFO 56517 [egg-security] use csrf middleware
+2019-10-14 17:26:19,522 INFO 56517 [egg-security] use methodnoallow middleware
+2019-10-14 17:26:19,522 INFO 56517 [egg-security] use noopen middleware
+2019-10-14 17:26:19,523 INFO 56517 [egg-security] use nosniff middleware
+2019-10-14 17:26:19,523 INFO 56517 [egg-security] use xssProtection middleware
+2019-10-14 17:26:19,523 INFO 56517 [egg-security] use xframe middleware
+2019-10-14 17:26:19,524 INFO 56517 [egg-security] use dta middleware
+2019-10-14 17:26:19,524 INFO 56517 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:26:19,579 INFO 56517 [egg:core] dump config after load, 5ms
+2019-10-14 17:26:19,589 INFO 56517 [egg-watcher:application] watcher start success
+2019-10-14 17:26:19,595 INFO 56517 [egg:core] dump config after ready, 4ms
+2019-10-14 17:27:48,833 INFO 56692 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:27:48,859 INFO 56692 [egg-multipart] stream mode enable
+2019-10-14 17:27:48,887 INFO 56692 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:27:48,888 INFO 56692 [egg-security] use csrf middleware
+2019-10-14 17:27:48,889 INFO 56692 [egg-security] use methodnoallow middleware
+2019-10-14 17:27:48,889 INFO 56692 [egg-security] use noopen middleware
+2019-10-14 17:27:48,889 INFO 56692 [egg-security] use nosniff middleware
+2019-10-14 17:27:48,890 INFO 56692 [egg-security] use xssProtection middleware
+2019-10-14 17:27:48,890 INFO 56692 [egg-security] use xframe middleware
+2019-10-14 17:27:48,890 INFO 56692 [egg-security] use dta middleware
+2019-10-14 17:27:48,890 INFO 56692 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:27:49,763 INFO 56692 [egg:core] dump config after load, 3ms
+2019-10-14 17:27:49,771 INFO 56692 [egg-watcher:application] watcher start success
+2019-10-14 17:27:49,775 INFO 56692 [egg:core] dump config after ready, 2ms
+2019-10-14 17:29:42,326 INFO 56874 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:29:42,355 INFO 56874 [egg-multipart] stream mode enable
+2019-10-14 17:29:42,391 INFO 56874 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:29:42,394 INFO 56874 [egg-security] use csrf middleware
+2019-10-14 17:29:42,395 INFO 56874 [egg-security] use methodnoallow middleware
+2019-10-14 17:29:42,395 INFO 56874 [egg-security] use noopen middleware
+2019-10-14 17:29:42,396 INFO 56874 [egg-security] use nosniff middleware
+2019-10-14 17:29:42,396 INFO 56874 [egg-security] use xssProtection middleware
+2019-10-14 17:29:42,397 INFO 56874 [egg-security] use xframe middleware
+2019-10-14 17:29:42,397 INFO 56874 [egg-security] use dta middleware
+2019-10-14 17:29:42,397 INFO 56874 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:29:43,404 INFO 56874 [egg:core] dump config after load, 4ms
+2019-10-14 17:29:43,416 INFO 56874 [egg-watcher:application] watcher start success
+2019-10-14 17:29:43,421 INFO 56874 [egg:core] dump config after ready, 3ms
+2019-10-14 17:30:34,407 INFO 56967 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:30:34,432 INFO 56967 [egg-multipart] stream mode enable
+2019-10-14 17:30:34,463 INFO 56967 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:30:34,465 INFO 56967 [egg-security] use csrf middleware
+2019-10-14 17:30:34,465 INFO 56967 [egg-security] use methodnoallow middleware
+2019-10-14 17:30:34,465 INFO 56967 [egg-security] use noopen middleware
+2019-10-14 17:30:34,466 INFO 56967 [egg-security] use nosniff middleware
+2019-10-14 17:30:34,466 INFO 56967 [egg-security] use xssProtection middleware
+2019-10-14 17:30:34,466 INFO 56967 [egg-security] use xframe middleware
+2019-10-14 17:30:34,466 INFO 56967 [egg-security] use dta middleware
+2019-10-14 17:30:34,466 INFO 56967 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:30:35,400 INFO 56967 [egg:core] dump config after load, 3ms
+2019-10-14 17:30:35,410 INFO 56967 [egg-watcher:application] watcher start success
+2019-10-14 17:30:35,420 INFO 56967 [egg:core] dump config after ready, 8ms
+2019-10-14 17:30:43,869 INFO 56994 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:30:43,895 INFO 56994 [egg-multipart] stream mode enable
+2019-10-14 17:30:43,928 INFO 56994 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:30:43,930 INFO 56994 [egg-security] use csrf middleware
+2019-10-14 17:30:43,930 INFO 56994 [egg-security] use methodnoallow middleware
+2019-10-14 17:30:43,931 INFO 56994 [egg-security] use noopen middleware
+2019-10-14 17:30:43,931 INFO 56994 [egg-security] use nosniff middleware
+2019-10-14 17:30:43,931 INFO 56994 [egg-security] use xssProtection middleware
+2019-10-14 17:30:43,932 INFO 56994 [egg-security] use xframe middleware
+2019-10-14 17:30:43,932 INFO 56994 [egg-security] use dta middleware
+2019-10-14 17:30:43,932 INFO 56994 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:30:43,941 INFO 56994 [egg:core] dump config after load, 4ms
+2019-10-14 17:30:43,952 INFO 56994 [egg-watcher:application] watcher start success
+2019-10-14 17:30:43,957 INFO 56994 [egg:core] dump config after ready, 3ms
+2019-10-14 17:31:20,630 INFO 57059 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:31:20,657 INFO 57059 [egg-multipart] stream mode enable
+2019-10-14 17:31:20,685 INFO 57059 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:31:20,687 INFO 57059 [egg-security] use csrf middleware
+2019-10-14 17:31:20,687 INFO 57059 [egg-security] use methodnoallow middleware
+2019-10-14 17:31:20,687 INFO 57059 [egg-security] use noopen middleware
+2019-10-14 17:31:20,688 INFO 57059 [egg-security] use nosniff middleware
+2019-10-14 17:31:20,688 INFO 57059 [egg-security] use xssProtection middleware
+2019-10-14 17:31:20,688 INFO 57059 [egg-security] use xframe middleware
+2019-10-14 17:31:20,689 INFO 57059 [egg-security] use dta middleware
+2019-10-14 17:31:20,689 INFO 57059 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:31:21,607 INFO 57059 [egg:core] dump config after load, 4ms
+2019-10-14 17:31:21,618 INFO 57059 [egg-watcher:application] watcher start success
+2019-10-14 17:31:21,623 INFO 57059 [egg:core] dump config after ready, 3ms
+2019-10-14 17:31:25,142 INFO 57073 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:31:25,167 INFO 57073 [egg-multipart] stream mode enable
+2019-10-14 17:31:25,193 INFO 57073 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:31:25,196 INFO 57073 [egg-security] use csrf middleware
+2019-10-14 17:31:25,197 INFO 57073 [egg-security] use methodnoallow middleware
+2019-10-14 17:31:25,197 INFO 57073 [egg-security] use noopen middleware
+2019-10-14 17:31:25,197 INFO 57073 [egg-security] use nosniff middleware
+2019-10-14 17:31:25,198 INFO 57073 [egg-security] use xssProtection middleware
+2019-10-14 17:31:25,198 INFO 57073 [egg-security] use xframe middleware
+2019-10-14 17:31:25,198 INFO 57073 [egg-security] use dta middleware
+2019-10-14 17:31:25,198 INFO 57073 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:31:25,206 INFO 57073 [egg:core] dump config after load, 4ms
+2019-10-14 17:31:25,215 INFO 57073 [egg-watcher:application] watcher start success
+2019-10-14 17:31:25,223 INFO 57073 [egg:core] dump config after ready, 6ms
+2019-10-14 17:32:51,589 INFO 57214 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:32:51,619 INFO 57214 [egg-multipart] stream mode enable
+2019-10-14 17:32:51,656 INFO 57214 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:32:51,658 INFO 57214 [egg-security] use csrf middleware
+2019-10-14 17:32:51,658 INFO 57214 [egg-security] use methodnoallow middleware
+2019-10-14 17:32:51,658 INFO 57214 [egg-security] use noopen middleware
+2019-10-14 17:32:51,659 INFO 57214 [egg-security] use nosniff middleware
+2019-10-14 17:32:51,659 INFO 57214 [egg-security] use xssProtection middleware
+2019-10-14 17:32:51,659 INFO 57214 [egg-security] use xframe middleware
+2019-10-14 17:32:51,659 INFO 57214 [egg-security] use dta middleware
+2019-10-14 17:32:51,659 INFO 57214 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:32:51,666 INFO 57214 [egg:core] dump config after load, 3ms
+2019-10-14 17:32:51,674 INFO 57214 [egg-watcher:application] watcher start success
+2019-10-14 17:32:51,678 INFO 57214 [egg:core] dump config after ready, 2ms
+2019-10-14 17:34:05,676 INFO 57321 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:34:05,700 INFO 57321 [egg-multipart] stream mode enable
+2019-10-14 17:34:05,730 INFO 57321 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:34:05,732 INFO 57321 [egg-security] use csrf middleware
+2019-10-14 17:34:05,733 INFO 57321 [egg-security] use methodnoallow middleware
+2019-10-14 17:34:05,733 INFO 57321 [egg-security] use noopen middleware
+2019-10-14 17:34:05,733 INFO 57321 [egg-security] use nosniff middleware
+2019-10-14 17:34:05,733 INFO 57321 [egg-security] use xssProtection middleware
+2019-10-14 17:34:05,734 INFO 57321 [egg-security] use xframe middleware
+2019-10-14 17:34:05,734 INFO 57321 [egg-security] use dta middleware
+2019-10-14 17:34:05,734 INFO 57321 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:34:06,631 INFO 57321 [egg:core] dump config after load, 7ms
+2019-10-14 17:34:06,641 INFO 57321 [egg-watcher:application] watcher start success
+2019-10-14 17:34:06,646 INFO 57321 [egg:core] dump config after ready, 3ms
+2019-10-14 17:34:09,172 INFO 57333 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:34:09,194 INFO 57333 [egg-multipart] stream mode enable
+2019-10-14 17:34:09,220 INFO 57333 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:34:09,222 INFO 57333 [egg-security] use csrf middleware
+2019-10-14 17:34:09,222 INFO 57333 [egg-security] use methodnoallow middleware
+2019-10-14 17:34:09,222 INFO 57333 [egg-security] use noopen middleware
+2019-10-14 17:34:09,223 INFO 57333 [egg-security] use nosniff middleware
+2019-10-14 17:34:09,223 INFO 57333 [egg-security] use xssProtection middleware
+2019-10-14 17:34:09,223 INFO 57333 [egg-security] use xframe middleware
+2019-10-14 17:34:09,223 INFO 57333 [egg-security] use dta middleware
+2019-10-14 17:34:09,223 INFO 57333 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:34:09,235 INFO 57333 [egg:core] dump config after load, 7ms
+2019-10-14 17:34:09,248 INFO 57333 [egg-watcher:application] watcher start success
+2019-10-14 17:34:09,255 INFO 57333 [egg:core] dump config after ready, 5ms
+2019-10-14 17:37:14,537 INFO 57596 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:37:14,578 INFO 57596 [egg-multipart] stream mode enable
+2019-10-14 17:37:14,649 INFO 57596 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:37:14,651 INFO 57596 [egg-security] use csrf middleware
+2019-10-14 17:37:14,652 INFO 57596 [egg-security] use methodnoallow middleware
+2019-10-14 17:37:14,653 INFO 57596 [egg-security] use noopen middleware
+2019-10-14 17:37:14,654 INFO 57596 [egg-security] use nosniff middleware
+2019-10-14 17:37:14,654 INFO 57596 [egg-security] use xssProtection middleware
+2019-10-14 17:37:14,655 INFO 57596 [egg-security] use xframe middleware
+2019-10-14 17:37:14,656 INFO 57596 [egg-security] use dta middleware
+2019-10-14 17:37:14,656 INFO 57596 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:37:14,721 INFO 57596 [egg:core] dump config after load, 5ms
+2019-10-14 17:37:14,734 INFO 57596 [egg-watcher:application] watcher start success
+2019-10-14 17:37:14,742 INFO 57596 [egg:core] dump config after ready, 4ms
+2019-10-14 17:38:00,100 INFO 57685 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:38:00,135 INFO 57685 [egg-multipart] stream mode enable
+2019-10-14 17:38:00,210 INFO 57685 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:38:00,212 INFO 57685 [egg-security] use csrf middleware
+2019-10-14 17:38:00,213 INFO 57685 [egg-security] use methodnoallow middleware
+2019-10-14 17:38:00,214 INFO 57685 [egg-security] use noopen middleware
+2019-10-14 17:38:00,215 INFO 57685 [egg-security] use nosniff middleware
+2019-10-14 17:38:00,215 INFO 57685 [egg-security] use xssProtection middleware
+2019-10-14 17:38:00,216 INFO 57685 [egg-security] use xframe middleware
+2019-10-14 17:38:00,217 INFO 57685 [egg-security] use dta middleware
+2019-10-14 17:38:00,217 INFO 57685 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:38:00,264 INFO 57685 [egg:core] dump config after load, 3ms
+2019-10-14 17:38:00,272 INFO 57685 [egg-watcher:application] watcher start success
+2019-10-14 17:38:00,276 INFO 57685 [egg:core] dump config after ready, 3ms
+2019-10-14 17:38:11,654 INFO 57726 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:38:11,689 INFO 57726 [egg-multipart] stream mode enable
+2019-10-14 17:38:11,759 INFO 57726 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:38:11,761 INFO 57726 [egg-security] use csrf middleware
+2019-10-14 17:38:11,762 INFO 57726 [egg-security] use methodnoallow middleware
+2019-10-14 17:38:11,762 INFO 57726 [egg-security] use noopen middleware
+2019-10-14 17:38:11,763 INFO 57726 [egg-security] use nosniff middleware
+2019-10-14 17:38:11,764 INFO 57726 [egg-security] use xssProtection middleware
+2019-10-14 17:38:11,764 INFO 57726 [egg-security] use xframe middleware
+2019-10-14 17:38:11,765 INFO 57726 [egg-security] use dta middleware
+2019-10-14 17:38:11,765 INFO 57726 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:38:11,816 INFO 57726 [egg:core] dump config after load, 4ms
+2019-10-14 17:38:11,828 INFO 57726 [egg-watcher:application] watcher start success
+2019-10-14 17:38:11,833 INFO 57726 [egg:core] dump config after ready, 3ms
+2019-10-14 17:38:38,090 INFO 57783 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:38:38,120 INFO 57783 [egg-multipart] stream mode enable
+2019-10-14 17:38:38,153 INFO 57783 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:38:38,156 INFO 57783 [egg-security] use csrf middleware
+2019-10-14 17:38:38,156 INFO 57783 [egg-security] use methodnoallow middleware
+2019-10-14 17:38:38,156 INFO 57783 [egg-security] use noopen middleware
+2019-10-14 17:38:38,157 INFO 57783 [egg-security] use nosniff middleware
+2019-10-14 17:38:38,157 INFO 57783 [egg-security] use xssProtection middleware
+2019-10-14 17:38:38,157 INFO 57783 [egg-security] use xframe middleware
+2019-10-14 17:38:38,158 INFO 57783 [egg-security] use dta middleware
+2019-10-14 17:38:38,158 INFO 57783 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:38:39,056 INFO 57783 [egg:core] dump config after load, 4ms
+2019-10-14 17:38:39,066 INFO 57783 [egg-watcher:application] watcher start success
+2019-10-14 17:38:39,071 INFO 57783 [egg:core] dump config after ready, 3ms
+2019-10-14 17:40:01,231 INFO 57908 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:40:01,255 INFO 57908 [egg-multipart] stream mode enable
+2019-10-14 17:40:01,284 INFO 57908 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:40:01,285 INFO 57908 [egg-security] use csrf middleware
+2019-10-14 17:40:01,286 INFO 57908 [egg-security] use methodnoallow middleware
+2019-10-14 17:40:01,286 INFO 57908 [egg-security] use noopen middleware
+2019-10-14 17:40:01,286 INFO 57908 [egg-security] use nosniff middleware
+2019-10-14 17:40:01,286 INFO 57908 [egg-security] use xssProtection middleware
+2019-10-14 17:40:01,287 INFO 57908 [egg-security] use xframe middleware
+2019-10-14 17:40:01,287 INFO 57908 [egg-security] use dta middleware
+2019-10-14 17:40:01,287 INFO 57908 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:40:01,295 INFO 57908 [egg:core] dump config after load, 4ms
+2019-10-14 17:40:01,304 INFO 57908 [egg-watcher:application] watcher start success
+2019-10-14 17:40:01,308 INFO 57908 [egg:core] dump config after ready, 3ms
+2019-10-14 17:41:19,082 INFO 58020 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:41:19,114 INFO 58020 [egg-multipart] stream mode enable
+2019-10-14 17:41:19,148 INFO 58020 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:41:19,150 INFO 58020 [egg-security] use csrf middleware
+2019-10-14 17:41:19,151 INFO 58020 [egg-security] use methodnoallow middleware
+2019-10-14 17:41:19,151 INFO 58020 [egg-security] use noopen middleware
+2019-10-14 17:41:19,152 INFO 58020 [egg-security] use nosniff middleware
+2019-10-14 17:41:19,152 INFO 58020 [egg-security] use xssProtection middleware
+2019-10-14 17:41:19,152 INFO 58020 [egg-security] use xframe middleware
+2019-10-14 17:41:19,153 INFO 58020 [egg-security] use dta middleware
+2019-10-14 17:41:19,153 INFO 58020 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:41:20,055 INFO 58020 [egg:core] dump config after load, 3ms
+2019-10-14 17:41:20,064 INFO 58020 [egg-watcher:application] watcher start success
+2019-10-14 17:41:20,068 INFO 58020 [egg:core] dump config after ready, 3ms
+2019-10-14 17:41:34,650 INFO 58055 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:41:34,678 INFO 58055 [egg-multipart] stream mode enable
+2019-10-14 17:41:34,705 INFO 58055 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:41:34,708 INFO 58055 [egg-security] use csrf middleware
+2019-10-14 17:41:34,709 INFO 58055 [egg-security] use methodnoallow middleware
+2019-10-14 17:41:34,709 INFO 58055 [egg-security] use noopen middleware
+2019-10-14 17:41:34,709 INFO 58055 [egg-security] use nosniff middleware
+2019-10-14 17:41:34,709 INFO 58055 [egg-security] use xssProtection middleware
+2019-10-14 17:41:34,710 INFO 58055 [egg-security] use xframe middleware
+2019-10-14 17:41:34,710 INFO 58055 [egg-security] use dta middleware
+2019-10-14 17:41:34,710 INFO 58055 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:41:35,658 INFO 58055 [egg:core] dump config after load, 4ms
+2019-10-14 17:41:35,667 INFO 58055 [egg-watcher:application] watcher start success
+2019-10-14 17:41:35,671 INFO 58055 [egg:core] dump config after ready, 3ms
+2019-10-14 17:43:31,267 INFO 58230 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:43:31,292 INFO 58230 [egg-multipart] stream mode enable
+2019-10-14 17:43:31,318 INFO 58230 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:43:31,320 INFO 58230 [egg-security] use csrf middleware
+2019-10-14 17:43:31,320 INFO 58230 [egg-security] use methodnoallow middleware
+2019-10-14 17:43:31,320 INFO 58230 [egg-security] use noopen middleware
+2019-10-14 17:43:31,321 INFO 58230 [egg-security] use nosniff middleware
+2019-10-14 17:43:31,321 INFO 58230 [egg-security] use xssProtection middleware
+2019-10-14 17:43:31,321 INFO 58230 [egg-security] use xframe middleware
+2019-10-14 17:43:31,321 INFO 58230 [egg-security] use dta middleware
+2019-10-14 17:43:31,321 INFO 58230 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:43:32,302 INFO 58230 [egg:core] dump config after load, 4ms
+2019-10-14 17:43:32,311 INFO 58230 [egg-watcher:application] watcher start success
+2019-10-14 17:43:32,314 INFO 58230 [egg:core] dump config after ready, 2ms
+2019-10-14 17:43:49,505 INFO 58275 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:43:49,533 INFO 58275 [egg-multipart] stream mode enable
+2019-10-14 17:43:49,561 INFO 58275 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:43:49,563 INFO 58275 [egg-security] use csrf middleware
+2019-10-14 17:43:49,564 INFO 58275 [egg-security] use methodnoallow middleware
+2019-10-14 17:43:49,565 INFO 58275 [egg-security] use noopen middleware
+2019-10-14 17:43:49,565 INFO 58275 [egg-security] use nosniff middleware
+2019-10-14 17:43:49,566 INFO 58275 [egg-security] use xssProtection middleware
+2019-10-14 17:43:49,566 INFO 58275 [egg-security] use xframe middleware
+2019-10-14 17:43:49,566 INFO 58275 [egg-security] use dta middleware
+2019-10-14 17:43:49,566 INFO 58275 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:43:50,555 INFO 58275 [egg:core] dump config after load, 4ms
+2019-10-14 17:43:50,566 INFO 58275 [egg-watcher:application] watcher start success
+2019-10-14 17:43:50,570 INFO 58275 [egg:core] dump config after ready, 3ms
+2019-10-14 17:44:45,597 INFO 58373 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:44:45,620 INFO 58373 [egg-multipart] stream mode enable
+2019-10-14 17:44:45,651 INFO 58373 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:44:45,653 INFO 58373 [egg-security] use csrf middleware
+2019-10-14 17:44:45,653 INFO 58373 [egg-security] use methodnoallow middleware
+2019-10-14 17:44:45,654 INFO 58373 [egg-security] use noopen middleware
+2019-10-14 17:44:45,655 INFO 58373 [egg-security] use nosniff middleware
+2019-10-14 17:44:45,655 INFO 58373 [egg-security] use xssProtection middleware
+2019-10-14 17:44:45,655 INFO 58373 [egg-security] use xframe middleware
+2019-10-14 17:44:45,655 INFO 58373 [egg-security] use dta middleware
+2019-10-14 17:44:45,655 INFO 58373 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:44:45,665 INFO 58373 [egg:core] dump config after load, 6ms
+2019-10-14 17:44:45,674 INFO 58373 [egg-watcher:application] watcher start success
+2019-10-14 17:44:45,680 INFO 58373 [egg:core] dump config after ready, 4ms
+2019-10-14 17:47:20,393 INFO 58589 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:47:20,421 INFO 58589 [egg-multipart] stream mode enable
+2019-10-14 17:47:20,454 INFO 58589 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:47:20,456 INFO 58589 [egg-security] use csrf middleware
+2019-10-14 17:47:20,457 INFO 58589 [egg-security] use methodnoallow middleware
+2019-10-14 17:47:20,457 INFO 58589 [egg-security] use noopen middleware
+2019-10-14 17:47:20,457 INFO 58589 [egg-security] use nosniff middleware
+2019-10-14 17:47:20,458 INFO 58589 [egg-security] use xssProtection middleware
+2019-10-14 17:47:20,458 INFO 58589 [egg-security] use xframe middleware
+2019-10-14 17:47:20,458 INFO 58589 [egg-security] use dta middleware
+2019-10-14 17:47:20,458 INFO 58589 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:47:21,374 INFO 58589 [egg:core] dump config after load, 4ms
+2019-10-14 17:47:21,382 INFO 58589 [egg-watcher:application] watcher start success
+2019-10-14 17:47:21,386 INFO 58589 [egg:core] dump config after ready, 3ms
+2019-10-14 17:47:27,806 INFO 58615 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:47:27,830 INFO 58615 [egg-multipart] stream mode enable
+2019-10-14 17:47:27,854 INFO 58615 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:47:27,856 INFO 58615 [egg-security] use csrf middleware
+2019-10-14 17:47:27,856 INFO 58615 [egg-security] use methodnoallow middleware
+2019-10-14 17:47:27,857 INFO 58615 [egg-security] use noopen middleware
+2019-10-14 17:47:27,857 INFO 58615 [egg-security] use nosniff middleware
+2019-10-14 17:47:27,857 INFO 58615 [egg-security] use xssProtection middleware
+2019-10-14 17:47:27,857 INFO 58615 [egg-security] use xframe middleware
+2019-10-14 17:47:27,857 INFO 58615 [egg-security] use dta middleware
+2019-10-14 17:47:27,857 INFO 58615 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:47:27,869 INFO 58615 [egg:core] dump config after load, 6ms
+2019-10-14 17:47:27,879 INFO 58615 [egg-watcher:application] watcher start success
+2019-10-14 17:47:27,883 INFO 58615 [egg:core] dump config after ready, 3ms
+2019-10-14 17:51:22,883 INFO 58946 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:51:22,920 INFO 58946 [egg-multipart] stream mode enable
+2019-10-14 17:51:22,979 INFO 58946 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:51:22,982 INFO 58946 [egg-security] use csrf middleware
+2019-10-14 17:51:22,983 INFO 58946 [egg-security] use methodnoallow middleware
+2019-10-14 17:51:22,984 INFO 58946 [egg-security] use noopen middleware
+2019-10-14 17:51:22,985 INFO 58946 [egg-security] use nosniff middleware
+2019-10-14 17:51:22,986 INFO 58946 [egg-security] use xssProtection middleware
+2019-10-14 17:51:22,987 INFO 58946 [egg-security] use xframe middleware
+2019-10-14 17:51:22,988 INFO 58946 [egg-security] use dta middleware
+2019-10-14 17:51:22,988 INFO 58946 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:51:24,123 INFO 58946 [egg:core] dump config after load, 14ms
+2019-10-14 17:51:24,137 INFO 58946 [egg-watcher:application] watcher start success
+2019-10-14 17:51:24,142 INFO 58946 [egg:core] dump config after ready, 3ms
+2019-10-14 17:51:36,782 INFO 58986 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:51:36,811 INFO 58986 [egg-multipart] stream mode enable
+2019-10-14 17:51:36,869 INFO 58986 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:51:36,872 INFO 58986 [egg-security] use csrf middleware
+2019-10-14 17:51:36,873 INFO 58986 [egg-security] use methodnoallow middleware
+2019-10-14 17:51:36,873 INFO 58986 [egg-security] use noopen middleware
+2019-10-14 17:51:36,874 INFO 58986 [egg-security] use nosniff middleware
+2019-10-14 17:51:36,874 INFO 58986 [egg-security] use xssProtection middleware
+2019-10-14 17:51:36,875 INFO 58986 [egg-security] use xframe middleware
+2019-10-14 17:51:36,875 INFO 58986 [egg-security] use dta middleware
+2019-10-14 17:51:36,875 INFO 58986 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:51:37,884 INFO 58986 [egg:core] dump config after load, 5ms
+2019-10-14 17:51:37,895 INFO 58986 [egg-watcher:application] watcher start success
+2019-10-14 17:51:37,900 INFO 58986 [egg:core] dump config after ready, 3ms
+2019-10-14 17:51:42,866 INFO 59011 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:51:42,886 INFO 59011 [egg-multipart] stream mode enable
+2019-10-14 17:51:42,910 INFO 59011 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:51:42,911 INFO 59011 [egg-security] use csrf middleware
+2019-10-14 17:51:42,912 INFO 59011 [egg-security] use methodnoallow middleware
+2019-10-14 17:51:42,912 INFO 59011 [egg-security] use noopen middleware
+2019-10-14 17:51:42,912 INFO 59011 [egg-security] use nosniff middleware
+2019-10-14 17:51:42,912 INFO 59011 [egg-security] use xssProtection middleware
+2019-10-14 17:51:42,912 INFO 59011 [egg-security] use xframe middleware
+2019-10-14 17:51:42,913 INFO 59011 [egg-security] use dta middleware
+2019-10-14 17:51:42,913 INFO 59011 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:51:43,796 INFO 59011 [egg:core] dump config after load, 6ms
+2019-10-14 17:51:43,805 INFO 59011 [egg-watcher:application] watcher start success
+2019-10-14 17:51:43,810 INFO 59011 [egg:core] dump config after ready, 3ms
+2019-10-14 17:51:47,454 INFO 59019 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:51:47,482 INFO 59019 [egg-multipart] stream mode enable
+2019-10-14 17:51:47,515 INFO 59019 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:51:47,517 INFO 59019 [egg-security] use csrf middleware
+2019-10-14 17:51:47,517 INFO 59019 [egg-security] use methodnoallow middleware
+2019-10-14 17:51:47,518 INFO 59019 [egg-security] use noopen middleware
+2019-10-14 17:51:47,518 INFO 59019 [egg-security] use nosniff middleware
+2019-10-14 17:51:47,518 INFO 59019 [egg-security] use xssProtection middleware
+2019-10-14 17:51:47,519 INFO 59019 [egg-security] use xframe middleware
+2019-10-14 17:51:47,519 INFO 59019 [egg-security] use dta middleware
+2019-10-14 17:51:47,519 INFO 59019 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:51:48,438 INFO 59019 [egg:core] dump config after load, 4ms
+2019-10-14 17:51:48,447 INFO 59019 [egg-watcher:application] watcher start success
+2019-10-14 17:51:48,452 INFO 59019 [egg:core] dump config after ready, 3ms
+2019-10-14 17:51:51,749 INFO 59032 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:51:51,772 INFO 59032 [egg-multipart] stream mode enable
+2019-10-14 17:51:51,799 INFO 59032 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:51:51,801 INFO 59032 [egg-security] use csrf middleware
+2019-10-14 17:51:51,801 INFO 59032 [egg-security] use methodnoallow middleware
+2019-10-14 17:51:51,801 INFO 59032 [egg-security] use noopen middleware
+2019-10-14 17:51:51,802 INFO 59032 [egg-security] use nosniff middleware
+2019-10-14 17:51:51,803 INFO 59032 [egg-security] use xssProtection middleware
+2019-10-14 17:51:51,803 INFO 59032 [egg-security] use xframe middleware
+2019-10-14 17:51:51,803 INFO 59032 [egg-security] use dta middleware
+2019-10-14 17:51:51,803 INFO 59032 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:51:52,754 INFO 59032 [egg:core] dump config after load, 4ms
+2019-10-14 17:51:52,765 INFO 59032 [egg-watcher:application] watcher start success
+2019-10-14 17:51:52,769 INFO 59032 [egg:core] dump config after ready, 3ms
+2019-10-14 17:53:10,360 INFO 59155 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:53:10,383 INFO 59155 [egg-multipart] stream mode enable
+2019-10-14 17:53:10,413 INFO 59155 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:53:10,416 INFO 59155 [egg-security] use csrf middleware
+2019-10-14 17:53:10,417 INFO 59155 [egg-security] use methodnoallow middleware
+2019-10-14 17:53:10,417 INFO 59155 [egg-security] use noopen middleware
+2019-10-14 17:53:10,417 INFO 59155 [egg-security] use nosniff middleware
+2019-10-14 17:53:10,418 INFO 59155 [egg-security] use xssProtection middleware
+2019-10-14 17:53:10,418 INFO 59155 [egg-security] use xframe middleware
+2019-10-14 17:53:10,418 INFO 59155 [egg-security] use dta middleware
+2019-10-14 17:53:10,418 INFO 59155 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:53:11,307 INFO 59155 [egg:core] dump config after load, 3ms
+2019-10-14 17:53:11,316 INFO 59155 [egg-watcher:application] watcher start success
+2019-10-14 17:53:11,320 INFO 59155 [egg:core] dump config after ready, 2ms
+2019-10-14 17:53:15,737 INFO 59169 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:53:15,770 INFO 59169 [egg-multipart] stream mode enable
+2019-10-14 17:53:15,808 INFO 59169 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:53:15,810 INFO 59169 [egg-security] use csrf middleware
+2019-10-14 17:53:15,811 INFO 59169 [egg-security] use methodnoallow middleware
+2019-10-14 17:53:15,811 INFO 59169 [egg-security] use noopen middleware
+2019-10-14 17:53:15,812 INFO 59169 [egg-security] use nosniff middleware
+2019-10-14 17:53:15,812 INFO 59169 [egg-security] use xssProtection middleware
+2019-10-14 17:53:15,812 INFO 59169 [egg-security] use xframe middleware
+2019-10-14 17:53:15,812 INFO 59169 [egg-security] use dta middleware
+2019-10-14 17:53:15,812 INFO 59169 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:53:16,796 INFO 59169 [egg:core] dump config after load, 4ms
+2019-10-14 17:53:16,807 INFO 59169 [egg-watcher:application] watcher start success
+2019-10-14 17:53:16,812 INFO 59169 [egg:core] dump config after ready, 3ms
+2019-10-14 17:53:17,692 INFO 59182 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:53:17,720 INFO 59182 [egg-multipart] stream mode enable
+2019-10-14 17:53:17,754 INFO 59182 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:53:17,756 INFO 59182 [egg-security] use csrf middleware
+2019-10-14 17:53:17,756 INFO 59182 [egg-security] use methodnoallow middleware
+2019-10-14 17:53:17,757 INFO 59182 [egg-security] use noopen middleware
+2019-10-14 17:53:17,757 INFO 59182 [egg-security] use nosniff middleware
+2019-10-14 17:53:17,757 INFO 59182 [egg-security] use xssProtection middleware
+2019-10-14 17:53:17,758 INFO 59182 [egg-security] use xframe middleware
+2019-10-14 17:53:17,758 INFO 59182 [egg-security] use dta middleware
+2019-10-14 17:53:17,758 INFO 59182 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:53:17,768 INFO 59182 [egg:core] dump config after load, 4ms
+2019-10-14 17:53:17,779 INFO 59182 [egg-watcher:application] watcher start success
+2019-10-14 17:53:17,784 INFO 59182 [egg:core] dump config after ready, 3ms
+2019-10-14 17:53:19,685 INFO 59187 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:53:19,709 INFO 59187 [egg-multipart] stream mode enable
+2019-10-14 17:53:19,740 INFO 59187 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:53:19,742 INFO 59187 [egg-security] use csrf middleware
+2019-10-14 17:53:19,743 INFO 59187 [egg-security] use methodnoallow middleware
+2019-10-14 17:53:19,743 INFO 59187 [egg-security] use noopen middleware
+2019-10-14 17:53:19,743 INFO 59187 [egg-security] use nosniff middleware
+2019-10-14 17:53:19,743 INFO 59187 [egg-security] use xssProtection middleware
+2019-10-14 17:53:19,744 INFO 59187 [egg-security] use xframe middleware
+2019-10-14 17:53:19,744 INFO 59187 [egg-security] use dta middleware
+2019-10-14 17:53:19,744 INFO 59187 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:53:20,630 INFO 59187 [egg:core] dump config after load, 4ms
+2019-10-14 17:53:20,641 INFO 59187 [egg-watcher:application] watcher start success
+2019-10-14 17:53:20,647 INFO 59187 [egg:core] dump config after ready, 4ms
+2019-10-14 17:53:32,449 INFO 59222 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:53:32,473 INFO 59222 [egg-multipart] stream mode enable
+2019-10-14 17:53:32,505 INFO 59222 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:53:32,507 INFO 59222 [egg-security] use csrf middleware
+2019-10-14 17:53:32,507 INFO 59222 [egg-security] use methodnoallow middleware
+2019-10-14 17:53:32,508 INFO 59222 [egg-security] use noopen middleware
+2019-10-14 17:53:32,508 INFO 59222 [egg-security] use nosniff middleware
+2019-10-14 17:53:32,508 INFO 59222 [egg-security] use xssProtection middleware
+2019-10-14 17:53:32,509 INFO 59222 [egg-security] use xframe middleware
+2019-10-14 17:53:32,509 INFO 59222 [egg-security] use dta middleware
+2019-10-14 17:53:32,509 INFO 59222 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:53:33,455 INFO 59222 [egg:core] dump config after load, 4ms
+2019-10-14 17:53:33,467 INFO 59222 [egg-watcher:application] watcher start success
+2019-10-14 17:53:33,472 INFO 59222 [egg:core] dump config after ready, 3ms
+2019-10-14 17:53:37,522 INFO 59238 [egg:logger] init all loggers with options: {"dir":"/Users/sillyy/学习/Repo/ido-crm-server/logs/ido-crm-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ido-crm-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-14 17:53:37,544 INFO 59238 [egg-multipart] stream mode enable
+2019-10-14 17:53:37,571 INFO 59238 [egg-static] starting static serve /public/ -> /Users/sillyy/学习/Repo/ido-crm-server/app/public
+2019-10-14 17:53:37,573 INFO 59238 [egg-security] use csrf middleware
+2019-10-14 17:53:37,573 INFO 59238 [egg-security] use methodnoallow middleware
+2019-10-14 17:53:37,573 INFO 59238 [egg-security] use noopen middleware
+2019-10-14 17:53:37,574 INFO 59238 [egg-security] use nosniff middleware
+2019-10-14 17:53:37,574 INFO 59238 [egg-security] use xssProtection middleware
+2019-10-14 17:53:37,574 INFO 59238 [egg-security] use xframe middleware
+2019-10-14 17:53:37,574 INFO 59238 [egg-security] use dta middleware
+2019-10-14 17:53:37,574 INFO 59238 [egg-security] compose 7 middlewares into one security middleware
+2019-10-14 17:53:37,583 INFO 59238 [egg:core] dump config after load, 5ms
+2019-10-14 17:53:37,591 INFO 59238 [egg-watcher:application] watcher start success
+2019-10-14 17:53:37,596 INFO 59238 [egg:core] dump config after ready, 3ms
