@@ -2,10 +2,14 @@
 // Do not modify this file!!!!!!!!!
 
 import 'egg';
-import ExportTest from '../../../app/service/Test';
+import ExportBook from '../../../app/service/book';
+import ExportConfigure from '../../../app/service/configure';
+import ExportCrawler from '../../../app/service/crawler';
 
 declare module 'egg' {
   interface IService {
-    test: ExportTest;
+    book: ExportBook;
+    configure: ExportConfigure;
+    crawler: ExportCrawler;
   }
 }

@@ -545,3 +545,423 @@ errors: [{"message":"should match /^\\d+$/","code":"invalid","field":"bookId"}]
 pid: 58589
 hostname: liuyudeMacBook-Pro.local
 
+2019-10-18 16:22:14,407 ERROR 5645 [-/::1/-/4ms GET /search?bookName=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: ctx.helper.errorCaptured is not a function
+    at ConfigureController.search (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:15:39)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:36:12
+
+pid: 5645
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-21 17:54:08,534 ERROR 49113 [-/127.0.0.1/-/7ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: ctx.helper.errorCaptured(...).bind is not a function
+    at ConfigureController.search (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:18:7)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:36:12
+
+pid: 49113
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 16:27:23,235 ERROR 44438 [-/::1/-/6ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: (intermediate value) is not iterable
+    at ConfigureController.search (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:15:22)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 44438
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 16:28:12,629 ERROR 44438 [-/::1/-/3ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: (intermediate value) is not iterable
+    at ConfigureController.search (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:15:22)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 44438
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 16:35:33,869 ERROR 45247 [-/::1/-/1342ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:255:15)
+    at handleResponse (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 45247
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 16:37:48,299 ERROR 45477 [-/::1/-/946ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:255:15)
+    at handleResponse (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 45477
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 16:38:42,987 ERROR 45585 [-/::1/-/3108ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:255:15)
+    at handleResponse (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 45585
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 16:38:49,188 ERROR 45585 [-/::1/-/1853ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:255:15)
+    at handleResponse (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 45585
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 17:05:34,857 ERROR 45585 [-/::1/-/1017ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:255:15)
+    at handleResponse (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 45585
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 17:10:37,832 ERROR 49364 [-/::1/-/1028ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:255:15)
+    at handleResponse (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 49364
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 17:13:06,880 ERROR 49653 [-/::1/-/947ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:255:15)
+    at handleResponse (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 49653
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 17:13:37,779 ERROR 49742 [-/::1/-/901ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:255:15)
+    at handleResponse (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 49742
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-25 16:56:22,901 WARN 36523 [-/::1/-/17ms POST /install] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-10-25 16:56:22,905 WARN 36523 [-/::1/-/19ms POST /install] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-security/app/extend/context.js:163:19)
+    at csrf (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 36523
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-25 16:58:26,777 WARN 36865 [-/::1/-/10ms POST /install] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-10-25 16:58:26,780 WARN 36865 [-/::1/-/11ms POST /install] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-security/app/extend/context.js:163:19)
+    at csrf (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 36865
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-25 16:58:56,851 WARN 36915 [-/::1/-/10ms POST /install] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-10-25 16:58:56,856 WARN 36915 [-/::1/-/12ms POST /install] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-security/app/extend/context.js:163:19)
+    at csrf (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 36915
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-25 16:59:52,656 WARN 36996 [-/::1/-/18ms POST /install] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-10-25 16:59:52,661 WARN 36996 [-/::1/-/21ms POST /install] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-security/app/extend/context.js:163:19)
+    at csrf (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 36996
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-25 17:07:06,619 WARN 37877 [-/::1/-/19ms POST /install] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-validate/app/extend/context.js:14:17)
+    at ConfigureController.install (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:42:9)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"keyword","code":"missing_field"}]
+pid: 37877
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-25 17:08:14,589 WARN 38018 [-/::1/-/23ms POST /install] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-validate/app/extend/context.js:14:17)
+    at ConfigureController.install (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:43:9)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"keyword","code":"missing_field"}]
+pid: 38018
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-25 17:08:24,412 WARN 38018 [-/::1/-/2ms POST /install] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-validate/app/extend/context.js:14:17)
+    at ConfigureController.install (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:43:9)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"keyword","code":"missing_field"}]
+pid: 38018
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-25 17:25:08,372 ERROR 39648 [-/::1/-/2411ms POST /install] nodejs.ReferenceError: fetch is not defined
+    at ConfigureController.install (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:56:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 39648
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-26 14:48:47,486 WARN 74681 [-/::1/-/2ms POST /install?title=%E5%B8%9D%E9%9C%B8&link=https://www.biquge.com.cn/book/37161/&desc=%E5%8D%83%E4%B8%87%E5%B9%B4%E5%89%8D%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E6%A0%BD%E4%B8%8B%E4%B8%80%E6%A0%AA%E7%BF%A0%E7%AB%B9%E3%80%82%E5%85%AB%E7%99%BE%E4%B8%87%E5%B9%B4%E5%89%8D%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E5%85%BB%E4%BA%86%E4%B8%80%E6%9D%A1%E9%B2%A4%E9%B1%BC%E3%80%82%E4%BA%94%E7%99%BE%E4%B8%87%E5%B9%B4%E5%89%8D%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E6%94%B6%E5%85%BB%E4%B8%80%E4%B8%AA%E5%B0%8F%E5%A5%B3%E5%AD%A9%E3%80%82%E4%BB%8A%E5%A4%A9%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E4%B8%80%E8%A7%89%E9%86%92%E6%9D%A5%EF%BC%8C%E7%BF%A0%E7%AB%B9%E4%BF%AE%E7%BB%83%E6%88%90%E7%A5%9E%E7%81%B5%EF%BC%8C%E9%B2%A4%E9%B1%BC%E5%8C%96%E4%BD%9C%E9%87%91%E9%BE%99%EF%BC%8C%E5%B0%8F%E5%A5%B3%E5%AD%A9%E6%88%90%E4%B8%BA%E4%B9%9D%E7%95%8C%E5%A5%B3%E5%B8%9D%E3%80%82%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E5%85%BB%E6%88%90%E7%9A%84%E6%95%85%E4%BA%8B%EF%BC%8C%E4%B8%80%E4%B8%AA%E4%B8%8D%E6%AD%BB%E7%9A%84%E4%BA%BA...&major=%E7%8E%84%E5%B9%BB%E5%B0%8F%E8%AF%B4&author=%E5%8E%8C%E7%AC%94%E8%90%A7%E7%94%9F] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-validate/app/extend/context.js:14:17)
+    at ConfigureController.install (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:45:9)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"link","code":"missing_field"},{"message":"required","field":"title","code":"missing_field"},{"message":"required","field":"desc","code":"missing_field"},{"message":"required","field":"author","code":"missing_field"},{"message":"required","field":"major","code":"missing_field"}]
+pid: 74681
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-26 14:49:31,187 WARN 74681 [-/::1/-/0ms POST /install?title=%E5%B8%9D%E9%9C%B8&link=https://www.biquge.com.cn/book/37161/&desc=%E5%8D%83%E4%B8%87%E5%B9%B4%E5%89%8D%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E6%A0%BD%E4%B8%8B%E4%B8%80%E6%A0%AA%E7%BF%A0%E7%AB%B9%E3%80%82%E5%85%AB%E7%99%BE%E4%B8%87%E5%B9%B4%E5%89%8D%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E5%85%BB%E4%BA%86%E4%B8%80%E6%9D%A1%E9%B2%A4%E9%B1%BC%E3%80%82%E4%BA%94%E7%99%BE%E4%B8%87%E5%B9%B4%E5%89%8D%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E6%94%B6%E5%85%BB%E4%B8%80%E4%B8%AA%E5%B0%8F%E5%A5%B3%E5%AD%A9%E3%80%82%E4%BB%8A%E5%A4%A9%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E4%B8%80%E8%A7%89%E9%86%92%E6%9D%A5%EF%BC%8C%E7%BF%A0%E7%AB%B9%E4%BF%AE%E7%BB%83%E6%88%90%E7%A5%9E%E7%81%B5%EF%BC%8C%E9%B2%A4%E9%B1%BC%E5%8C%96%E4%BD%9C%E9%87%91%E9%BE%99%EF%BC%8C%E5%B0%8F%E5%A5%B3%E5%AD%A9%E6%88%90%E4%B8%BA%E4%B9%9D%E7%95%8C%E5%A5%B3%E5%B8%9D%E3%80%82%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E5%85%BB%E6%88%90%E7%9A%84%E6%95%85%E4%BA%8B%EF%BC%8C%E4%B8%80%E4%B8%AA%E4%B8%8D%E6%AD%BB%E7%9A%84%E4%BA%BA...&major=%E7%8E%84%E5%B9%BB%E5%B0%8F%E8%AF%B4&author=%E5%8E%8C%E7%AC%94%E8%90%A7%E7%94%9F] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-validate/app/extend/context.js:14:17)
+    at ConfigureController.install (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:45:9)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"link","code":"missing_field"},{"message":"required","field":"title","code":"missing_field"},{"message":"required","field":"desc","code":"missing_field"},{"message":"required","field":"author","code":"missing_field"},{"message":"required","field":"major","code":"missing_field"}]
+pid: 74681
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-26 14:49:36,797 WARN 74681 [-/::1/-/1ms POST /install?title=%E5%B8%9D%E9%9C%B8&link=https://www.biquge.com.cn/book/37161/&desc=%E5%8D%83%E4%B8%87%E5%B9%B4%E5%89%8D%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E6%A0%BD%E4%B8%8B%E4%B8%80%E6%A0%AA%E7%BF%A0%E7%AB%B9%E3%80%82%E5%85%AB%E7%99%BE%E4%B8%87%E5%B9%B4%E5%89%8D%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E5%85%BB%E4%BA%86%E4%B8%80%E6%9D%A1%E9%B2%A4%E9%B1%BC%E3%80%82%E4%BA%94%E7%99%BE%E4%B8%87%E5%B9%B4%E5%89%8D%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E6%94%B6%E5%85%BB%E4%B8%80%E4%B8%AA%E5%B0%8F%E5%A5%B3%E5%AD%A9%E3%80%82%E4%BB%8A%E5%A4%A9%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E4%B8%80%E8%A7%89%E9%86%92%E6%9D%A5%EF%BC%8C%E7%BF%A0%E7%AB%B9%E4%BF%AE%E7%BB%83%E6%88%90%E7%A5%9E%E7%81%B5%EF%BC%8C%E9%B2%A4%E9%B1%BC%E5%8C%96%E4%BD%9C%E9%87%91%E9%BE%99%EF%BC%8C%E5%B0%8F%E5%A5%B3%E5%AD%A9%E6%88%90%E4%B8%BA%E4%B9%9D%E7%95%8C%E5%A5%B3%E5%B8%9D%E3%80%82%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E5%85%BB%E6%88%90%E7%9A%84%E6%95%85%E4%BA%8B%EF%BC%8C%E4%B8%80%E4%B8%AA%E4%B8%8D%E6%AD%BB%E7%9A%84%E4%BA%BA...&major=%E7%8E%84%E5%B9%BB%E5%B0%8F%E8%AF%B4&author=%E5%8E%8C%E7%AC%94%E8%90%A7%E7%94%9F] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-validate/app/extend/context.js:14:17)
+    at ConfigureController.install (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:45:9)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"link","code":"missing_field"},{"message":"required","field":"title","code":"missing_field"},{"message":"required","field":"desc","code":"missing_field"},{"message":"required","field":"author","code":"missing_field"},{"message":"required","field":"major","code":"missing_field"}]
+pid: 74681
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-26 14:49:49,151 WARN 75205 [-/::1/-/7ms POST /install?title=%E5%B8%9D%E9%9C%B8&link=https://www.biquge.com.cn/book/37161/&desc=%E5%8D%83%E4%B8%87%E5%B9%B4%E5%89%8D%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E6%A0%BD%E4%B8%8B%E4%B8%80%E6%A0%AA%E7%BF%A0%E7%AB%B9%E3%80%82%E5%85%AB%E7%99%BE%E4%B8%87%E5%B9%B4%E5%89%8D%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E5%85%BB%E4%BA%86%E4%B8%80%E6%9D%A1%E9%B2%A4%E9%B1%BC%E3%80%82%E4%BA%94%E7%99%BE%E4%B8%87%E5%B9%B4%E5%89%8D%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E6%94%B6%E5%85%BB%E4%B8%80%E4%B8%AA%E5%B0%8F%E5%A5%B3%E5%AD%A9%E3%80%82%E4%BB%8A%E5%A4%A9%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E4%B8%80%E8%A7%89%E9%86%92%E6%9D%A5%EF%BC%8C%E7%BF%A0%E7%AB%B9%E4%BF%AE%E7%BB%83%E6%88%90%E7%A5%9E%E7%81%B5%EF%BC%8C%E9%B2%A4%E9%B1%BC%E5%8C%96%E4%BD%9C%E9%87%91%E9%BE%99%EF%BC%8C%E5%B0%8F%E5%A5%B3%E5%AD%A9%E6%88%90%E4%B8%BA%E4%B9%9D%E7%95%8C%E5%A5%B3%E5%B8%9D%E3%80%82%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E5%85%BB%E6%88%90%E7%9A%84%E6%95%85%E4%BA%8B%EF%BC%8C%E4%B8%80%E4%B8%AA%E4%B8%8D%E6%AD%BB%E7%9A%84%E4%BA%BA...&major=%E7%8E%84%E5%B9%BB%E5%B0%8F%E8%AF%B4&author=%E5%8E%8C%E7%AC%94%E8%90%A7%E7%94%9F] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-validate/app/extend/context.js:14:17)
+    at ConfigureController.install (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:45:9)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"link","code":"missing_field"},{"message":"required","field":"title","code":"missing_field"},{"message":"required","field":"desc","code":"missing_field"},{"message":"required","field":"author","code":"missing_field"},{"message":"required","field":"major","code":"missing_field"}]
+pid: 75205
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-26 14:50:15,825 WARN 75235 [-/::1/-/16ms POST /install?title=%E5%B8%9D%E9%9C%B8&link=https://www.biquge.com.cn/book/37161/&desc=%E5%8D%83%E4%B8%87%E5%B9%B4%E5%89%8D%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E6%A0%BD%E4%B8%8B%E4%B8%80%E6%A0%AA%E7%BF%A0%E7%AB%B9%E3%80%82%E5%85%AB%E7%99%BE%E4%B8%87%E5%B9%B4%E5%89%8D%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E5%85%BB%E4%BA%86%E4%B8%80%E6%9D%A1%E9%B2%A4%E9%B1%BC%E3%80%82%E4%BA%94%E7%99%BE%E4%B8%87%E5%B9%B4%E5%89%8D%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E6%94%B6%E5%85%BB%E4%B8%80%E4%B8%AA%E5%B0%8F%E5%A5%B3%E5%AD%A9%E3%80%82%E4%BB%8A%E5%A4%A9%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E4%B8%80%E8%A7%89%E9%86%92%E6%9D%A5%EF%BC%8C%E7%BF%A0%E7%AB%B9%E4%BF%AE%E7%BB%83%E6%88%90%E7%A5%9E%E7%81%B5%EF%BC%8C%E9%B2%A4%E9%B1%BC%E5%8C%96%E4%BD%9C%E9%87%91%E9%BE%99%EF%BC%8C%E5%B0%8F%E5%A5%B3%E5%AD%A9%E6%88%90%E4%B8%BA%E4%B9%9D%E7%95%8C%E5%A5%B3%E5%B8%9D%E3%80%82%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E5%85%BB%E6%88%90%E7%9A%84%E6%95%85%E4%BA%8B%EF%BC%8C%E4%B8%80%E4%B8%AA%E4%B8%8D%E6%AD%BB%E7%9A%84%E4%BA%BA...&major=%E7%8E%84%E5%B9%BB%E5%B0%8F%E8%AF%B4&author=%E5%8E%8C%E7%AC%94%E8%90%A7%E7%94%9F] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-validate/app/extend/context.js:14:17)
+    at ConfigureController.install (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:45:9)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"link","code":"missing_field"},{"message":"required","field":"title","code":"missing_field"},{"message":"required","field":"desc","code":"missing_field"},{"message":"required","field":"author","code":"missing_field"},{"message":"required","field":"major","code":"missing_field"}]
+pid: 75235
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-26 14:50:27,802 WARN 75290 [-/::1/-/18ms POST /install?title=%E5%B8%9D%E9%9C%B8&link=https://www.biquge.com.cn/book/37161/&desc=%E5%8D%83%E4%B8%87%E5%B9%B4%E5%89%8D%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E6%A0%BD%E4%B8%8B%E4%B8%80%E6%A0%AA%E7%BF%A0%E7%AB%B9%E3%80%82%E5%85%AB%E7%99%BE%E4%B8%87%E5%B9%B4%E5%89%8D%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E5%85%BB%E4%BA%86%E4%B8%80%E6%9D%A1%E9%B2%A4%E9%B1%BC%E3%80%82%E4%BA%94%E7%99%BE%E4%B8%87%E5%B9%B4%E5%89%8D%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E6%94%B6%E5%85%BB%E4%B8%80%E4%B8%AA%E5%B0%8F%E5%A5%B3%E5%AD%A9%E3%80%82%E4%BB%8A%E5%A4%A9%EF%BC%8C%E6%9D%8E%E4%B8%83%E5%A4%9C%E4%B8%80%E8%A7%89%E9%86%92%E6%9D%A5%EF%BC%8C%E7%BF%A0%E7%AB%B9%E4%BF%AE%E7%BB%83%E6%88%90%E7%A5%9E%E7%81%B5%EF%BC%8C%E9%B2%A4%E9%B1%BC%E5%8C%96%E4%BD%9C%E9%87%91%E9%BE%99%EF%BC%8C%E5%B0%8F%E5%A5%B3%E5%AD%A9%E6%88%90%E4%B8%BA%E4%B9%9D%E7%95%8C%E5%A5%B3%E5%B8%9D%E3%80%82%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E5%85%BB%E6%88%90%E7%9A%84%E6%95%85%E4%BA%8B%EF%BC%8C%E4%B8%80%E4%B8%AA%E4%B8%8D%E6%AD%BB%E7%9A%84%E4%BA%BA...&major=%E7%8E%84%E5%B9%BB%E5%B0%8F%E8%AF%B4&author=%E5%8E%8C%E7%AC%94%E8%90%A7%E7%94%9F] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-validate/app/extend/context.js:14:17)
+    at ConfigureController.install (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:45:9)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"link","code":"missing_field"},{"message":"required","field":"title","code":"missing_field"},{"message":"required","field":"desc","code":"missing_field"},{"message":"required","field":"author","code":"missing_field"},{"message":"required","field":"major","code":"missing_field"}]
+pid: 75290
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-26 14:51:03,046 ERROR 75290 [-/::1/-/3ms POST /install] nodejs.TypeError: ctx.helper.errorCpatured is not a function
+    at ConfigureController.install (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:50:41)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 75290
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-26 16:54:55,069 WARN 86966 [-/::1/-/20ms POST /install] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-validate/app/extend/context.js:14:17)
+    at ConfigureController.install (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:65:9)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"should be a number","code":"invalid","field":"words"},{"message":"should be a number","code":"invalid","field":"bookId"}]
+pid: 86966
+hostname: liuyudeMacBook-Pro.local
+

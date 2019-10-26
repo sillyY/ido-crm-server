@@ -12,4 +12,5 @@ export default (app: Application) => {
 
   router.get('/search', controller.configure.search)
     .get('/update', controller.configure.update)
+    .post('/install', controller.configure.install)
 }

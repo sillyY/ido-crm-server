@@ -103,3 +103,473 @@ hostname: liuyudeMacBook-Pro.local
 pid: 54712
 hostname: liuyudeMacBook-Pro.local
 
+2019-10-18 16:22:14,407 ERROR 5645 [-/::1/-/4ms GET /search?bookName=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: ctx.helper.errorCaptured is not a function
+    at ConfigureController.search (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:15:39)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:36:12
+
+pid: 5645
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-21 17:54:08,534 ERROR 49113 [-/127.0.0.1/-/7ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: ctx.helper.errorCaptured(...).bind is not a function
+    at ConfigureController.search (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:18:7)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:36:12
+
+pid: 49113
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-21 18:05:33,500 ERROR 47285 nodejs.ClusterClientNoResponseError: client no response in 216010ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47285
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-21 18:20:41,254 ERROR 47285 nodejs.ClusterClientNoResponseError: client no response in 907750ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47285
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-21 18:50:47,144 ERROR 47285 nodejs.ClusterClientNoResponseError: client no response in 1805888ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47285
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-21 19:11:16,522 ERROR 47285 nodejs.ClusterClientNoResponseError: client no response in 1229377ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47285
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-21 20:59:31,472 ERROR 47285 nodejs.ClusterClientNoResponseError: client no response in 6474804ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47285
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-21 21:14:52,911 ERROR 47285 nodejs.ClusterClientNoResponseError: client no response in 921437ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47285
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-21 22:50:00,247 ERROR 47285 nodejs.ClusterClientNoResponseError: client no response in 5167238ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47285
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-22 00:41:24,265 ERROR 47285 nodejs.ClusterClientNoResponseError: client no response in 6683970ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47285
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-22 02:29:31,103 ERROR 47285 nodejs.ClusterClientNoResponseError: client no response in 6486637ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47285
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-22 04:17:43,898 ERROR 47285 nodejs.ClusterClientNoResponseError: client no response in 6492767ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47285
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-22 06:05:57,113 ERROR 47285 nodejs.ClusterClientNoResponseError: client no response in 6493158ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47285
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-22 08:04:26,230 ERROR 47285 nodejs.ClusterClientNoResponseError: client no response in 7109063ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47285
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-22 08:19:43,450 ERROR 47285 nodejs.ClusterClientNoResponseError: client no response in 877134ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47285
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-22 08:34:38,499 ERROR 47285 nodejs.ClusterClientNoResponseError: client no response in 835020ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47285
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-22 08:50:38,015 ERROR 47285 nodejs.ClusterClientNoResponseError: client no response in 959515ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47285
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-22 08:53:01,014 ERROR 47285 nodejs.ClusterClientNoResponseError: client no response in 122985ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47285
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 16:27:23,234 ERROR 44438 [-/::1/-/6ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: (intermediate value) is not iterable
+    at ConfigureController.search (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:15:22)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 44438
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 16:28:12,629 ERROR 44438 [-/::1/-/3ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: (intermediate value) is not iterable
+    at ConfigureController.search (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:15:22)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 44438
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 16:35:33,869 ERROR 45247 [-/::1/-/1342ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:255:15)
+    at handleResponse (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 45247
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 16:37:48,299 ERROR 45477 [-/::1/-/946ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:255:15)
+    at handleResponse (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 45477
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 16:38:42,987 ERROR 45585 [-/::1/-/3108ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:255:15)
+    at handleResponse (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 45585
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 16:38:49,188 ERROR 45585 [-/::1/-/1853ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:255:15)
+    at handleResponse (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 45585
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 17:05:34,856 ERROR 45585 [-/::1/-/1017ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:255:15)
+    at handleResponse (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 45585
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 17:10:37,831 ERROR 49364 [-/::1/-/1028ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:255:15)
+    at handleResponse (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 49364
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 17:13:06,880 ERROR 49653 [-/::1/-/947ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:255:15)
+    at handleResponse (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 49653
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-23 17:13:37,779 ERROR 49742 [-/::1/-/901ms GET /search?keyword=%E5%B8%9D%E9%9C%B8] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:255:15)
+    at handleResponse (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/lib/application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 49742
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-24 00:18:24,249 ERROR 36767 nodejs.ClusterClientNoResponseError: client no response in 4689013ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36767
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-24 02:06:39,227 ERROR 36767 nodejs.ClusterClientNoResponseError: client no response in 6474891ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36767
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-24 03:54:51,696 ERROR 36767 nodejs.ClusterClientNoResponseError: client no response in 6492449ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36767
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-24 06:01:29,024 ERROR 36767 nodejs.ClusterClientNoResponseError: client no response in 7597295ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36767
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-24 09:04:39,121 ERROR 36767 nodejs.ClusterClientNoResponseError: client no response in 10969988ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36767
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-25 17:25:08,372 ERROR 39648 [-/::1/-/2411ms POST /install] nodejs.ReferenceError: fetch is not defined
+    at ConfigureController.install (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:56:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 39648
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-26 14:51:03,046 ERROR 75290 [-/::1/-/3ms POST /install] nodejs.TypeError: ctx.helper.errorCpatured is not a function
+    at ConfigureController.install (/Users/sillyy/学习/Repo/ido-crm-server/app/controller/configure.ts:50:41)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 75290
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-26 14:56:23,070 ERROR 75980 nodejs.unhandledRejectionError: CastError: Cast to ObjectId failed for value "厌笔萧生" at path "author"
+    at /Users/sillyy/学习/Repo/ido-crm-server/app/service/book.ts:44:17
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongoose/lib/model.js:4599:16
+    at model.Query.Query._findAndModify (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongoose/lib/query.js:3461:16)
+    at model.Query.<anonymous> (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongoose/lib/query.js:3001:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+    at process.nextTick (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/kareem/index.js:369:33)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+name: "unhandledRejectionError"
+pid: 75980
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-26 15:01:11,122 ERROR 76455 nodejs.unhandledRejectionError: MongoError: E11000 duplicate key error collection: read.books index: bookId_1 dup key: { : null }
+    at /Users/sillyy/学习/Repo/ido-crm-server/app/service/book.ts:47:17
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongoose/lib/model.js:4599:16
+    at cb (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongoose/lib/query.js:3489:14)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongoose/lib/query.js:3542:16
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongoose/lib/query.js:4340:14
+    at err (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/operations/execute_operation.js:76:14)
+    at session.endSession (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/operations/execute_operation.js:63:27)
+    at ClientSession.endSession (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/core/sessions.js:135:41)
+    at executeCallback (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/operations/execute_operation.js:59:17)
+    at handleCallback (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/utils.js:129:55)
+    at executeCommand (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/operations/find_and_modify.js:91:23)
+    at handleCallback (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/utils.js:129:55)
+    at db.s.topology.command (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/operations/db_ops.js:414:21)
+    at cb (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/core/sdam/topology.js:635:18)
+    at wireProtocol.command (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/core/sdam/server.js:273:7)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/core/connection/pool.js:408:18
+name: "unhandledRejectionError"
+pid: 76455
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-26 15:01:27,089 ERROR 76455 nodejs.unhandledRejectionError: MongoError: E11000 duplicate key error collection: read.books index: bookId_1 dup key: { : null }
+    at /Users/sillyy/学习/Repo/ido-crm-server/app/service/book.ts:47:17
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongoose/lib/model.js:4599:16
+    at cb (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongoose/lib/query.js:3489:14)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongoose/lib/query.js:3542:16
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongoose/lib/query.js:4340:14
+    at err (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/operations/execute_operation.js:76:14)
+    at session.endSession (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/operations/execute_operation.js:63:27)
+    at ClientSession.endSession (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/core/sessions.js:135:41)
+    at executeCallback (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/operations/execute_operation.js:59:17)
+    at handleCallback (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/utils.js:129:55)
+    at executeCommand (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/operations/find_and_modify.js:91:23)
+    at handleCallback (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/utils.js:129:55)
+    at db.s.topology.command (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/operations/db_ops.js:414:21)
+    at cb (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/core/sdam/topology.js:635:18)
+    at wireProtocol.command (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/core/sdam/server.js:273:7)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongodb/lib/core/connection/pool.js:408:18
+name: "unhandledRejectionError"
+pid: 76455
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-26 15:50:03,304 ERROR 74675 nodejs.ClusterClientNoResponseError: client no response in 609228ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 74675
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-26 17:00:57,339 ERROR 87648 nodejs.Error: ValidationError: contentId: Cast to Number failed for value "{ count: 10005,
+  _id: 5db4046272bde94aa43e8ee0,
+  model: 'Content',
+  field: 'contentId',
+  __v: 0 }" at path "contentId" (uncaughtException throw 1 times on pid:87648)
+  _id: 5db4046272bde94aa43e8ee0,
+  model: 'Content',
+  field: 'contentId',
+  __v: 0 }" at path "contentId"
+    at /Users/sillyy/学习/Repo/ido-crm-server/app/service/book.ts:100:17
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongoose/lib/model.js:4599:16
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongoose/lib/utils.js:256:11
+    at $__save.error (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongoose/lib/model.js:468:16)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/kareem/index.js:246:48
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/kareem/index.js:167:27)
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/kareem/index.js:169:9)
+    at Kareem.execPost (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/kareem/index.js:217:3)
+    at _handleWrapError (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/kareem/index.js:245:21)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/kareem/index.js:272:14
+    at _next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/kareem/index.js:94:14)
+    at process.nextTick (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/kareem/index.js:507:38)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 87648
+hostname: liuyudeMacBook-Pro.local
+
+2019-10-26 17:01:28,085 ERROR 87780 nodejs.Error: ValidationError: contentId: Cast to Number failed for value "{ count: 10005,
+  _id: 5db4046272bde94aa43e8ee0,
+  model: 'Content',
+  field: 'contentId',
+  __v: 0 }" at path "contentId" (uncaughtException throw 1 times on pid:87780)
+  _id: 5db4046272bde94aa43e8ee0,
+  model: 'Content',
+  field: 'contentId',
+  __v: 0 }" at path "contentId"
+    at /Users/sillyy/学习/Repo/ido-crm-server/app/service/book.ts:100:17
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongoose/lib/model.js:4599:16
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongoose/lib/utils.js:256:11
+    at $__save.error (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/mongoose/lib/model.js:468:16)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/kareem/index.js:246:48
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/kareem/index.js:167:27)
+    at next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/kareem/index.js:169:9)
+    at Kareem.execPost (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/kareem/index.js:217:3)
+    at _handleWrapError (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/kareem/index.js:245:21)
+    at /Users/sillyy/学习/Repo/ido-crm-server/node_modules/kareem/index.js:272:14
+    at _next (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/kareem/index.js:94:14)
+    at process.nextTick (/Users/sillyy/学习/Repo/ido-crm-server/node_modules/kareem/index.js:507:38)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 87780
+hostname: liuyudeMacBook-Pro.local
+

@@ -52,17 +52,21 @@ export default class BookController extends BaseController {
   }
 
   public async getChapter() {
-    const { ctx } = this
+    // const  { ctx } = this;
 
-    // 校验参数
-    const createRule = {
-      chapterId: 'id'
-    }
-    ctx.validate(createRule, ctx.params)
+    // const createRule = {
+    //   link: 'string'
+    // }
+    // ctx.validate(createRule, ctx.request.query)
 
-    // 设置响应内容和响应状态码
-    ctx.body = { id: 101 }
-    ctx.status = 201
+    // const {link} = ctx.request.query;
+
+    // const [res, err] = await ctx.helper.errorCaptured(ctx.service.configure.get, link)
+    // if(err) {
+    //   this.error(10001, err)
+    //   return
+    // }
+    // this.success(res)
   }
 
   public async getContent() {
