@@ -7,7 +7,9 @@
       "encrypt": true
     },
     "security": {
-      "domainWhiteList": [],
+      "domainWhiteList": [
+        "*"
+      ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
@@ -149,6 +151,10 @@
       "mapping": {}
     },
     "validate": {},
+    "cors": {
+      "origin": "*",
+      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH"
+    },
     "env": "local",
     "name": "ido-crm-server",
     "keys": "<String len: 33>",
@@ -183,6 +189,7 @@
       "dependencies": {
         "axios": "^0.19.0",
         "egg": "^2.6.1",
+        "egg-cors": "^2.2.2",
         "egg-scripts": "^2.6.0",
         "egg-validate": "^2.0.2",
         "mongoose": "^5.7.7",
@@ -480,6 +487,17 @@
       "from": "/Users/sillyy/学习/Repo/ido-crm-server/config/plugin.ts",
       "path": "/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-validate",
       "version": "2.0.2"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/sillyy/学习/Repo/ido-crm-server/config/plugin.ts",
+      "path": "/Users/sillyy/学习/Repo/ido-crm-server/node_modules/egg-cors",
+      "version": "2.2.2"
     }
   }
 }

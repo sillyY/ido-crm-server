@@ -1,4 +1,5 @@
 import BaseController from './base'
+import { errors } from '../config/code'
 
 export interface InstallParams {
   link: String
@@ -11,128 +12,146 @@ export interface InstallParams {
 export default class ConfigureController extends BaseController {
   public async search() {
     const { ctx } = this
-
     // 校验参数
     const createRule = {
-      keyword: 'string'
+        keyword: 'string'
+      },
+      valiErrors = this.app.validator.validate(createRule, ctx.request.query)
+
+    if (valiErrors && valiErrors.length) {
+      this.error(
+        errors.VERIFY_PARAMS_ERROR.code,
+        errors.VERIFY_PARAMS_ERROR.msg
+      )
+      return
     }
-    ctx.validate(createRule, ctx.request.query)
 
     const { keyword } = ctx.request.query
 
-    const [res, err] = await ctx.helper.errorCaptured(
-      ctx.service.configure.search,
-      keyword
-    )
-    if (err) {
-      this.error(10001, err)
-      return
+    // 设置响应内容和响应状态码
+    try {
+      const res = await ctx.service.configure.search(keyword)
+      this.success(res)
+    } catch (err) {
+      this.error(
+        errors.CRAWLER_CONNECT_ERROR.code,
+        errors.CRAWLER_CONNECT_ERROR.msg
+      )
     }
-    this.success(res)
   }
   public async install() {
     const { ctx } = this
-
-    // 校验参数
-    // const createRule = {
-    //   link: 'string',
-    //   title: 'string',
-    //   desc: 'string',
-    //   author: 'string',
-    //   major: 'string'
-    // }
-    // ctx.validate(createRule, ctx.request.body)
-    // const { link, title, desc, author, major } = ctx.request.body
-
-    // console.log(link)
-
-    // const [res, err] = await ctx.helper.errorCaptured(
-    //   ctx.service.book.saveBook,
-    //   {
-    //     title,
-    //     desc,
-    //     author,
-    //     major
-    //   }
-    // )
-
-    // 设置章节
+    // verify params
     const createRule = {
+      link: 'string',
       title: 'string',
-      words: {
-        type: 'number',
-        convertType: val => Number(val)
-      },
-      bookId: 'id'
+      desc: 'string',
+      author: 'string',
+      major: 'string'
     }
     ctx.validate(createRule, ctx.request.body)
-    const { title, words, bookId } = ctx.request.body
+    const { link, title, desc, author, major } = ctx.request.body
 
-    const [res, err] = await ctx.helper.errorCaptured(
-      ctx.service.book.saveChapter,
+    // save book
+    const [saveBookResult, saveBookErr] = await ctx.helper.errorCaptured(
+      ctx.service.book.saveBook,
       {
         title,
-        words,
-        bookId
+        desc,
+        author,
+        major
       }
     )
-
-    if (err) {
-      this.error(10001, err)
+    if (saveBookErr) {
+      this.error(10001, saveBookErr)
       return
     }
-    this.success(res)
 
-    // 设置正文
-    // const createRule = {
-    //   content: 'string'
-    // }
-    // ctx.validate(createRule, ctx.request.body)
-    // const { content } = ctx.request.body
+    // get chapters
+    const [getChapterResult, getChapterErr] = await ctx.helper.errorCaptured(
+      ctx.service.crawler.getChapter,
+      link
+    )
+    if (getChapterErr) {
+      this.error(10001, getChapterErr)
+      return
+    }
 
-    // const [res, err] = await ctx.helper.errorCaptured(
-    //   ctx.service.book.saveContent,
-    //   {
-    //     content
-    //   }
-    // )
+    await this._runSchedule(getChapterResult, saveBookResult, ctx)
 
-    // if(err) {
-    //   this.error(10001, err)
-    //   return
-    // }
-    // this.success(res)
+    this.success('保存成功')
+  }
+  private async _runSchedule(chapters, ctxData, ctx) {
+    const { bookId } = ctxData
+    let i = 0,
+      len = chapters.length
+    for (; i < len; i++) {
+      const { title, href } = chapters[i]
 
-    // const [res, err] = await ctx.helper.errorCaptured(
-    //   ctx.service.crawler.getChapter,
-    //   link
-    // )
-    // if (err) {
-    //   this.error(10001, err)
-    //   return
-    // }
+      const [getContentResult, getContentErr] = await ctx.helper.errorCaptured(
+        ctx.service.crawler.getContent,
+        href
+      )
+      if (getContentErr) {
+        this.error(10001, getContentErr)
+        return
+      }
 
-    // for (let v of res) {
-    //   // @ts-ignore
-    //   const [res, err] = await ctx.helper.errorCaptured(
-    //     ctx.service.crawler.getContent,
-    //     v.href
-    //   )
-    // }
-    // this.success(res.data)
+      const { content } = getContentResult
+
+      // @ts-ignore
+      const [
+        saveChapterResult,
+        saveChapterErr
+      ] = await ctx.helper.errorCaptured(ctx.service.book.saveChapter, {
+        bookId,
+        title,
+        words: content.length
+      })
+      if (saveChapterErr) {
+        this.error(10001, saveChapterErr)
+        return
+      }
+
+      const [
+        // @ts-ignore
+        saveContentResult,
+        saveContentErr
+      ] = await ctx.helper.errorCaptured(ctx.service.book.saveContent, content)
+      if (saveContentErr) {
+        this.error(10001, saveContentErr)
+        return
+      }
+      saveChapterResult && console.log(`${saveChapterResult.title} 获取完成`)
+    }
   }
   public async update() {
     const { ctx } = this
 
-    // 校验参数
-    // const createRule = {
-    //   keyword: 'string'
-    // }
-    // ctx.validate(createRule, ctx.request.query)
+    // verify params
+    const createRule = {
+      title: 'string',
+      desc: 'string',
+      author: 'string',
+      major: 'string'
+    }
+    ctx.validate(createRule, ctx.request.body)
+    const { title, desc, author, major } = ctx.request.body
 
-    // 设置响应内容和响应状态码
-    // this.success({ bookId: 1, keyword: '帝霸' })
-    ctx.body = { id: 102 }
-    ctx.status = 201
+    // save book
+    const [saveBookResult, saveBookErr] = await ctx.helper.errorCaptured(
+      ctx.service.book.saveBook,
+      {
+        title,
+        desc,
+        author,
+        major
+      }
+    )
+    if (saveBookErr) {
+      this.error(10001, saveBookErr)
+      return
+    }
+    this.success(saveBookResult)
   }
 }

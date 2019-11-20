@@ -1,17 +1,18 @@
 // app/service/user.js
-const Service = require('egg').Service;
+const Service = require('egg').Service
 import axios from 'axios'
-import { CRAWLER_SEARCH_URL } from '../config'
+import { BASE_URL, SEARCH_SUFFIX } from '../config/index'
 import { errorCaptured } from '../extend/helper'
 
 export default class ConfigureService extends Service {
-  async search(keyword) {
-    const [res, err] = await errorCaptured(axios.get, CRAWLER_SEARCH_URL + encodeURIComponent(keyword))
-    if(err) {
-      throw new Error(err)
-    }
-    return res.data
-  
+  async search(keyword: string) {
+    return new Promise(async (resolve, reject) => {
+      const [res, err] = await errorCaptured(
+        axios,
+        BASE_URL + SEARCH_SUFFIX + encodeURIComponent(keyword)
+      )
+      if (err) reject(err)
+      resolve(res.data.data)
+    })
+  }
 }
-}
-

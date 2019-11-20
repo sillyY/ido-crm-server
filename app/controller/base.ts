@@ -13,7 +13,13 @@ export default class BaseController extends Controller {
     }
   }
 
-  error(code, msg) {
+  error(code, msg, err?:any) {
+    /**
+     * TODO
+     * - [×] 日志记录真实错误 err
+     */
+    if(err) console.log(err)
+    
     this.ctx.body = {
       code,
       success: false,
@@ -27,4 +33,3 @@ export default class BaseController extends Controller {
     this.ctx.throw(404, msg)
   }
 }
-

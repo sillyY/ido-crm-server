@@ -48,24 +48,37 @@ const ContentSchema = new Schema(
 )
 export default class BookService extends Service {
   async saveBook(data: ISaveParams) {
-    const { title, desc, author, major } = data
-    BookSchema.plugin(db.autoIncrement.plugin, {
-      model: 'Book',
-      field: 'bookId',
-      startAt: 10000
-    })
-    const Book = mongoose.model('Book', BookSchema)
-    var book = new Book({
-      title,
-      desc,
-      author,
-      major
-    })
-    book.save(function(err) {
-      if (err) {
-        throw new Error(err)
-      }
-      return `${title}存储完成`
+    return new Promise(async (resolve, reject) => {
+      const { title, desc, author, major } = data
+      BookSchema.plugin(db.autoIncrement.plugin, {
+        model: 'Book',
+        field: 'bookId',
+        startAt: 10000
+      })
+      const Book = mongoose.model('Book', BookSchema)
+      var book = new Book({
+        title,
+        desc,
+        author,
+        major
+      })
+
+      // Whether the book has been saved
+      await Book.findOne({ title, author }, function(err, docs) {
+        if (err) {
+          reject(err)
+        }
+        if (docs) {
+          resolve(docs)
+        } else {
+          book.save(function(err, product) {
+            if (err) {
+              reject(err)
+            }
+            resolve(product)
+          })
+        }
+      })
     })
   }
 
@@ -77,63 +90,70 @@ export default class BookService extends Service {
         field: 'chapterId',
         startAt: 10000
       })
-      const Chapter = mongoose.model('Chapter', ChpaterSchema)
 
-      // get contentId
-      const IdentityCounter = mongoose.model('IdentityCounter')
-      IdentityCounter.findOne(
-        { model: 'Content', field: 'contentId' },
-        async function(err, docs: any) {
-          if (err) {
-            reject(err)
+      ContentSchema.plugin(db.autoIncrement.plugin, {
+        model: 'Content',
+        field: 'contentId',
+        startAt: 10000
+      })
+      const Chapter = mongoose.model('Chapter', ChpaterSchema),
+        Content = mongoose.model('Content', ContentSchema)
+
+      // @ts-ignore
+      Content.nextCount((err, count) => {
+        if (err) reject(err)
+        var chapter = new Chapter({
+          title,
+          bookId,
+          words,
+          contentId: count
+        })
+        // Whether the chapter has been saved
+        Chapter.findOne({ title, bookId }, function(err, docs) {
+          if (err) reject(err)
+          if (docs) {
+            console.log('章节已存在')
+            resolve(docs)
+          } else {
+            chapter.save(function(err, product) {
+              if (err) {
+                reject(err)
+              }
+              resolve(product)
+            })
           }
-          let contentId = docs.counter ? docs.counter : 10000
-
-          var chapter = new Chapter({
-            title,
-            bookId,
-            words,
-            contentId
-          })
-          // Whether the chapter has been saved
-          let isSaved = true
-          await Chapter.findOne({ title: title, bookId: bookId }, function(
-            err
-          ) {
-            if (err) {
-              reject(err)
-            }
-            isSaved = false
-          })
-          if (isSaved) resolve('章节已存在')
-          chapter.save(function(err) {
-            if (err) {
-              reject(err)
-            }
-            resolve('章节内容保存成功')
-          })
-        }
-      )
+        })
+      })
     })
   }
 
-  async saveContent(data) {
-    const { content } = data
-    ContentSchema.plugin(db.autoIncrement.plugin, {
-      model: 'Content',
-      field: 'contentId',
-      startAt: 10000
-    })
-    const Content = mongoose.model('Content', ContentSchema)
+  async saveContent(content) {
+    return new Promise((resolve, reject) => {
+      ContentSchema.plugin(db.autoIncrement.plugin, {
+        model: 'Content',
+        field: 'contentId',
+        startAt: 10000
+      })
+      const Content = mongoose.model('Content', ContentSchema)
 
-    var c = new Content({
-      content
-    })
-    c.save(function(err) {
-      if (err) {
-        throw new Error(err)
-      }
-      return '章节内容保存成功'
+      var c = new Content({
+        content
+      })
+
+      Content.findOne({ content }, (err, docs) => {
+        if (err) reject(err)
+        if (docs) {
+          console.log('内容已存在')
+          resolve(docs)
+        } else {
+          c.save(function(err, product) {
+            if (err) {
+              reject(err)
+            }
+            resolve(product)
+          })
+        }
+      })
     })
   }
 }
